@@ -8,4 +8,5 @@ This repo contains the implementation of MIT-6.824 lab assignment. Following mod
   <li>Sharded key value store</li>
 </ul>
 <br><br>
-*<i>Modules represented in bold are completed</i>. For more info visit : https://pdos.csail.mit.edu/6.824
+*<i>Modules represented in bold are completed</i>.<br>
+For more info visit : https://pdos.csail.mit.edu/6.824
