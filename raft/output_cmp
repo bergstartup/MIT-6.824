@@ -1,0 +1,1522 @@
+2020/09/10 13:47:58 I'm in 0 and its len 3
+2020/09/10 13:47:58 I'm in 1 and its len 3
+2020/09/10 13:47:58 I'm in 2 and its len 3
+Test (2B): basic agreement ...
+2020/09/10 13:47:59 [0.0]Term timeout and its state follower
+2020/09/10 13:47:59 [0] Start a election for term 1
+2020/09/10 13:47:59 [0.1] Sent request vote to 1
+2020/09/10 13:47:59 [0.1] Sent request vote to 2
+2020/09/10 13:47:59 [2.0] Recv RequestVote from 0 with enclosing term 1
+2020/09/10 13:47:59 [1.0] Recv RequestVote from 0 with enclosing term 1
+2020/09/10 13:47:59 Leader made 0 in term 1
+2020/09/10 13:47:59 Created From node 0 and the entry ID is 0_1
+2020/09/10 13:47:59 [1.1] Appended to log and len of log is 1
+2020/09/10 13:47:59 [2.1] Appended to log and len of log is 1
+2020/09/10 13:47:59 Got a conform Append ack from 1 for index 1
+2020/09/10 13:47:59 [0] Commited at leader log index is 1
+2020/09/10 13:47:59 Logged in SM
+2020/09/10 13:47:59 Got a conform Append ack from 2 for index 1
+2020/09/10 13:47:59 [2.1] Commited in follower index is 1
+2020/09/10 13:47:59 Logged in SM
+2020/09/10 13:47:59 [1.1] Commited in follower index is 1
+2020/09/10 13:47:59 Logged in SM
+2020/09/10 13:47:59 Created From node 0 and the entry ID is 0_2
+2020/09/10 13:47:59 [2.1] Appended to log and len of log is 2
+2020/09/10 13:47:59 [1.1] Appended to log and len of log is 2
+2020/09/10 13:47:59 Got a conform Append ack from 2 for index 2
+2020/09/10 13:47:59 [0] Commited at leader log index is 2
+2020/09/10 13:47:59 Logged in SM
+2020/09/10 13:47:59 Got a conform Append ack from 1 for index 2
+2020/09/10 13:47:59 [1.1] Commited in follower index is 2
+2020/09/10 13:47:59 Logged in SM
+2020/09/10 13:47:59 Logged in SM
+2020/09/10 13:47:59 [2.1] Commited in follower index is 2
+2020/09/10 13:47:59 Created From node 0 and the entry ID is 0_3
+2020/09/10 13:47:59 [1.1] Appended to log and len of log is 3
+2020/09/10 13:47:59 [2.1] Appended to log and len of log is 3
+2020/09/10 13:47:59 Got a conform Append ack from 1 for index 3
+2020/09/10 13:47:59 [0] Commited at leader log index is 3
+2020/09/10 13:47:59 Logged in SM
+2020/09/10 13:47:59 Got a conform Append ack from 2 for index 3
+2020/09/10 13:47:59 [2.1] Commited in follower index is 3
+2020/09/10 13:47:59 [1.1] Commited in follower index is 3
+2020/09/10 13:47:59 Logged in SM
+2020/09/10 13:47:59 Logged in SM
+  ... Passed --   1.3  3   14    4150    3
+2020/09/10 13:47:59 I'm in 0 and its len 3
+2020/09/10 13:47:59 I'm in 1 and its len 3
+2020/09/10 13:47:59 I'm in 2 and its len 3
+Test (2B): RPC byte count ...
+2020/09/10 13:48:00 [0.0]Term timeout and its state follower
+2020/09/10 13:48:00 [0] Start a election for term 1
+2020/09/10 13:48:00 [0.1] Sent request vote to 2
+2020/09/10 13:48:00 [2.0] Recv RequestVote from 0 with enclosing term 1
+2020/09/10 13:48:00 [0.1] Sent request vote to 1
+2020/09/10 13:48:00 [1.0] Recv RequestVote from 0 with enclosing term 1
+2020/09/10 13:48:00 Leader made 0 in term 1
+2020/09/10 13:48:00 Created From node 0 and the entry ID is 0_1
+2020/09/10 13:48:00 [2.1] Appended to log and len of log is 1
+2020/09/10 13:48:00 Got a conform Append ack from 2 for index 1
+2020/09/10 13:48:00 [0] Commited at leader log index is 1
+2020/09/10 13:48:00 Logged in SM
+2020/09/10 13:48:00 [1.1] Appended to log and len of log is 1
+2020/09/10 13:48:00 [1.1] Commited in follower index is 1
+2020/09/10 13:48:00 Got a conform Append ack from 1 for index 1
+2020/09/10 13:48:00 Logged in SM
+2020/09/10 13:48:00 [2.1] Commited in follower index is 1
+2020/09/10 13:48:00 Logged in SM
+2020/09/10 13:48:00 Created From node 0 and the entry ID is 0_2
+2020/09/10 13:48:00 [1.1] Appended to log and len of log is 2
+2020/09/10 13:48:00 Got a conform Append ack from 1 for index 2
+2020/09/10 13:48:00 [0] Commited at leader log index is 2
+2020/09/10 13:48:00 Logged in SM
+2020/09/10 13:48:00 [2.1] Appended to log and len of log is 2
+2020/09/10 13:48:00 [2.1] Commited in follower index is 2
+2020/09/10 13:48:00 [1.1] Commited in follower index is 2
+2020/09/10 13:48:00 Logged in SM
+2020/09/10 13:48:00 Got a conform Append ack from 2 for index 2
+2020/09/10 13:48:00 Logged in SM
+2020/09/10 13:48:00 Created From node 0 and the entry ID is 0_3
+2020/09/10 13:48:00 [2.1] Appended to log and len of log is 3
+2020/09/10 13:48:00 Got a conform Append ack from 2 for index 3
+2020/09/10 13:48:00 [0] Commited at leader log index is 3
+2020/09/10 13:48:00 Logged in SM
+2020/09/10 13:48:00 [1.1] Appended to log and len of log is 3
+2020/09/10 13:48:00 [1.1] Commited in follower index is 3
+2020/09/10 13:48:00 Got a conform Append ack from 1 for index 3
+2020/09/10 13:48:00 Logged in SM
+2020/09/10 13:48:00 [2.1] Commited in follower index is 3
+2020/09/10 13:48:00 Logged in SM
+2020/09/10 13:48:00 Created From node 0 and the entry ID is 0_4
+2020/09/10 13:48:01 [1.1] Appended to log and len of log is 4
+2020/09/10 13:48:01 Got a conform Append ack from 1 for index 4
+2020/09/10 13:48:01 [0] Commited at leader log index is 4
+2020/09/10 13:48:01 Logged in SM
+2020/09/10 13:48:01 [2.1] Appended to log and len of log is 4
+2020/09/10 13:48:01 Got a conform Append ack from 2 for index 4
+2020/09/10 13:48:01 [2.1] Commited in follower index is 4
+2020/09/10 13:48:01 [1.1] Commited in follower index is 4
+2020/09/10 13:48:01 Logged in SM
+2020/09/10 13:48:01 Logged in SM
+2020/09/10 13:48:01 Created From node 0 and the entry ID is 0_5
+2020/09/10 13:48:01 [2.1] Appended to log and len of log is 5
+2020/09/10 13:48:01 Got a conform Append ack from 2 for index 5
+2020/09/10 13:48:01 [0] Commited at leader log index is 5
+2020/09/10 13:48:01 [1.1] Appended to log and len of log is 5
+2020/09/10 13:48:01 Got a conform Append ack from 1 for index 5
+2020/09/10 13:48:01 Logged in SM
+2020/09/10 13:48:01 [1.1] Commited in follower index is 5
+2020/09/10 13:48:01 [2.1] Commited in follower index is 5
+2020/09/10 13:48:01 Logged in SM
+2020/09/10 13:48:01 Logged in SM
+2020/09/10 13:48:01 Created From node 0 and the entry ID is 0_6
+2020/09/10 13:48:01 [1.1] Appended to log and len of log is 6
+2020/09/10 13:48:01 [2.1] Appended to log and len of log is 6
+2020/09/10 13:48:01 Got a conform Append ack from 2 for index 6
+2020/09/10 13:48:01 [0] Commited at leader log index is 6
+2020/09/10 13:48:01 Logged in SM
+2020/09/10 13:48:01 Got a conform Append ack from 1 for index 6
+2020/09/10 13:48:01 [1.1] Commited in follower index is 6
+2020/09/10 13:48:01 Logged in SM
+2020/09/10 13:48:01 [2.1] Commited in follower index is 6
+2020/09/10 13:48:01 Logged in SM
+2020/09/10 13:48:01 Created From node 0 and the entry ID is 0_7
+2020/09/10 13:48:01 [1.1] Appended to log and len of log is 7
+2020/09/10 13:48:01 [2.1] Appended to log and len of log is 7
+2020/09/10 13:48:01 Got a conform Append ack from 1 for index 7
+2020/09/10 13:48:01 [0] Commited at leader log index is 7
+2020/09/10 13:48:01 Logged in SM
+2020/09/10 13:48:01 Got a conform Append ack from 2 for index 7
+2020/09/10 13:48:01 [2.1] Commited in follower index is 7
+2020/09/10 13:48:01 [1.1] Commited in follower index is 7
+2020/09/10 13:48:01 Logged in SM
+2020/09/10 13:48:01 Logged in SM
+2020/09/10 13:48:01 Created From node 0 and the entry ID is 0_8
+2020/09/10 13:48:01 [1.1] Appended to log and len of log is 8
+2020/09/10 13:48:01 Got a conform Append ack from 1 for index 8
+2020/09/10 13:48:01 [0] Commited at leader log index is 8
+2020/09/10 13:48:01 Logged in SM
+2020/09/10 13:48:01 [2.1] Appended to log and len of log is 8
+2020/09/10 13:48:01 Got a conform Append ack from 2 for index 8
+2020/09/10 13:48:01 [1.1]Term timeout and its state follower
+2020/09/10 13:48:01 [1] Start a election for term 2
+2020/09/10 13:48:01 [1.2] Sent request vote to 2
+2020/09/10 13:48:01 [2.1] Commited in follower index is 8
+2020/09/10 13:48:01 Logged in SM
+2020/09/10 13:48:01 [1.1] Commited in follower index is 8
+2020/09/10 13:48:01 [1.2] Sent request vote to 0
+2020/09/10 13:48:01 Logged in SM
+2020/09/10 13:48:01 Created From node 0 and the entry ID is 0_9
+2020/09/10 13:48:01 [1.1] Appended to log and len of log is 9
+2020/09/10 13:48:01 Got a conform Append ack from 1 for index 9
+2020/09/10 13:48:01 [0] Commited at leader log index is 9
+2020/09/10 13:48:01 Logged in SM
+2020/09/10 13:48:01 [2.1] Appended to log and len of log is 9
+2020/09/10 13:48:01 Got a conform Append ack from 2 for index 9
+2020/09/10 13:48:01 [2.1] Commited in follower index is 9
+2020/09/10 13:48:01 Logged in SM
+2020/09/10 13:48:01 [1.1] Commited in follower index is 9
+2020/09/10 13:48:01 Logged in SM
+2020/09/10 13:48:01 Created From node 0 and the entry ID is 0_10
+2020/09/10 13:48:01 [2.1] Appended to log and len of log is 10
+2020/09/10 13:48:01 Got a conform Append ack from 2 for index 10
+2020/09/10 13:48:01 [0] Commited at leader log index is 10
+2020/09/10 13:48:01 Logged in SM
+2020/09/10 13:48:01 [1.1] Appended to log and len of log is 10
+2020/09/10 13:48:01 Got a conform Append ack from 1 for index 10
+2020/09/10 13:48:01 [2.1] Commited in follower index is 10
+2020/09/10 13:48:01 Logged in SM
+2020/09/10 13:48:01 [1.1] Commited in follower index is 10
+2020/09/10 13:48:01 Logged in SM
+2020/09/10 13:48:01 Created From node 0 and the entry ID is 0_11
+2020/09/10 13:48:02 [2.1] Appended to log and len of log is 11
+2020/09/10 13:48:02 Got a conform Append ack from 2 for index 11
+2020/09/10 13:48:02 [0] Commited at leader log index is 11
+2020/09/10 13:48:02 Logged in SM
+2020/09/10 13:48:02 [1.1] Appended to log and len of log is 11
+2020/09/10 13:48:02 [1.1] Commited in follower index is 11
+2020/09/10 13:48:02 Got a conform Append ack from 1 for index 11
+2020/09/10 13:48:02 Logged in SM
+2020/09/10 13:48:02 [2.1] Commited in follower index is 11
+2020/09/10 13:48:02 Logged in SM
+--- FAIL: TestRPCBytes2B (2.55s)
+    test_test.go:141: too many RPC bytes; got 205505, expected 150000
+2020/09/10 13:48:02 I'm in 0 and its len 3
+2020/09/10 13:48:02 I'm in 1 and its len 3
+2020/09/10 13:48:02 I'm in 2 and its len 3
+Test (2B): agreement despite follower disconnection ...
+2020/09/10 13:48:02 [2.1]Term timeout and its state follower
+2020/09/10 13:48:02 [2] Start a election for term 2
+2020/09/10 13:48:02 [2.2] Sent request vote to 1
+2020/09/10 13:48:02 [2.2] Sent request vote to 0
+2020/09/10 13:48:03 [0.0]Term timeout and its state follower
+2020/09/10 13:48:03 [0] Start a election for term 1
+2020/09/10 13:48:03 [0.1] Sent request vote to 2
+2020/09/10 13:48:03 [2.0] Recv RequestVote from 0 with enclosing term 1
+2020/09/10 13:48:03 Leader made 0 in term 1
+2020/09/10 13:48:03 [0.1] Sent request vote to 1
+2020/09/10 13:48:03 Created From node 0 and the entry ID is 0_1
+2020/09/10 13:48:03 [1.1] Appended to log and len of log is 1
+2020/09/10 13:48:03 Got a conform Append ack from 1 for index 1
+2020/09/10 13:48:03 [0] Commited at leader log index is 1
+2020/09/10 13:48:03 Logged in SM
+2020/09/10 13:48:03 [2.1] Appended to log and len of log is 1
+2020/09/10 13:48:03 [2.1] Commited in follower index is 1
+2020/09/10 13:48:03 Got a conform Append ack from 2 for index 1
+2020/09/10 13:48:03 [1.1] Commited in follower index is 1
+2020/09/10 13:48:03 [2.1] Appended to log and len of log is 1
+2020/09/10 13:48:03 Got a conform Append ack from 2 for index 2
+2020/09/10 13:48:03 Logged in SM
+2020/09/10 13:48:03 Logged in SM
+2020/09/10 13:48:03 [1.2]Term timeout and its state candidate
+2020/09/10 13:48:03 [1] Start a election for term 3
+2020/09/10 13:48:03 [1.3] Sent request vote to 2
+2020/09/10 13:48:03 [1.3] Sent request vote to 0
+2020/09/10 13:48:03 Created From node 0 and the entry ID is 0_2
+2020/09/10 13:48:04 [1.1]Term timeout and its state follower
+2020/09/10 13:48:04 [1] Start a election for term 2
+2020/09/10 13:48:04 [1.2] Sent request vote to 2
+2020/09/10 13:48:04 [1.2] Sent request vote to 0
+2020/09/10 13:48:05 [2.1]Term timeout and its state follower
+2020/09/10 13:48:05 [2] Start a election for term 2
+2020/09/10 13:48:05 [2.2] Sent request vote to 1
+2020/09/10 13:48:05 [2.2] Sent request vote to 0
+2020/09/10 13:48:05 [2.2]Term timeout and its state candidate
+2020/09/10 13:48:05 [2] Start a election for term 3
+2020/09/10 13:48:05 [2.3] Sent request vote to 1
+2020/09/10 13:48:05 [1.3]Term timeout and its state follower
+2020/09/10 13:48:05 [1] Start a election for term 4
+2020/09/10 13:48:05 [1.4] Sent request vote to 2
+2020/09/10 13:48:05 [1.4] Sent request vote to 0
+2020/09/10 13:48:05 [2.3] Sent request vote to 0
+--- FAIL: TestFailAgree2B (3.82s)
+    config.go:470: one(102) failed to reach agreement
+2020/09/10 13:48:05 I'm in 0 and its len 5
+2020/09/10 13:48:05 I'm in 1 and its len 5
+2020/09/10 13:48:05 I'm in 2 and its len 5
+2020/09/10 13:48:05 I'm in 3 and its len 5
+2020/09/10 13:48:05 I'm in 4 and its len 5
+Test (2B): no agreement if too many followers disconnect ...
+2020/09/10 13:48:05 [1.1]Term timeout and its state follower
+2020/09/10 13:48:05 [1] Start a election for term 2
+2020/09/10 13:48:05 [1.2] Sent request vote to 2
+2020/09/10 13:48:05 [1.2] Sent request vote to 0
+2020/09/10 13:48:06 [1.2]Term timeout and its state candidate
+2020/09/10 13:48:06 [1] Start a election for term 3
+2020/09/10 13:48:06 [1.3] Sent request vote to 2
+2020/09/10 13:48:06 [1.3] Sent request vote to 0
+2020/09/10 13:48:06 [0.0]Term timeout and its state follower
+2020/09/10 13:48:06 [0] Start a election for term 1
+2020/09/10 13:48:06 [0.1] Sent request vote to 4
+2020/09/10 13:48:06 [4.0] Recv RequestVote from 0 with enclosing term 1
+2020/09/10 13:48:06 [0.1] Sent request vote to 2
+2020/09/10 13:48:06 [2.0] Recv RequestVote from 0 with enclosing term 1
+2020/09/10 13:48:06 Leader made 0 in term 1
+2020/09/10 13:48:06 [0.1] Sent request vote to 3
+2020/09/10 13:48:07 [0.1] Sent request vote to 1
+2020/09/10 13:48:07 Created From node 0 and the entry ID is 0_1
+2020/09/10 13:48:07 [4.1] Appended to log and len of log is 1
+2020/09/10 13:48:07 Got a conform Append ack from 4 for index 1
+2020/09/10 13:48:07 [1.1] Appended to log and len of log is 1
+2020/09/10 13:48:07 Got a conform Append ack from 1 for index 1
+2020/09/10 13:48:07 [0] Commited at leader log index is 1
+2020/09/10 13:48:07 Logged in SM
+2020/09/10 13:48:07 [3.1] Appended to log and len of log is 1
+2020/09/10 13:48:07 [3.1] Commited in follower index is 1
+2020/09/10 13:48:07 Got a conform Append ack from 3 for index 1
+2020/09/10 13:48:07 Logged in SM
+2020/09/10 13:48:07 [2.1] Appended to log and len of log is 1
+2020/09/10 13:48:07 [2.1] Commited in follower index is 1
+2020/09/10 13:48:07 Got a conform Append ack from 2 for index 1
+2020/09/10 13:48:07 [1.1] Commited in follower index is 1
+2020/09/10 13:48:07 [2.1] Appended to log and len of log is 1
+2020/09/10 13:48:07 Got a conform Append ack from 2 for index 2
+2020/09/10 13:48:07 Logged in SM
+2020/09/10 13:48:07 Logged in SM
+2020/09/10 13:48:07 [4.1] Commited in follower index is 1
+2020/09/10 13:48:07 Logged in SM
+2020/09/10 13:48:07 [2.1] Appended to log and len of log is 1
+2020/09/10 13:48:07 Got a conform Append ack from 2 for index 3
+2020/09/10 13:48:07 [1.4]Term timeout and its state candidate
+2020/09/10 13:48:07 [1] Start a election for term 5
+2020/09/10 13:48:07 [1.5] Sent request vote to 2
+2020/09/10 13:48:07 [1.5] Sent request vote to 0
+2020/09/10 13:48:07 Created From node 0 and the entry ID is 0_2
+2020/09/10 13:48:07 [4.1] Appended to log and len of log is 2
+2020/09/10 13:48:07 Got a conform Append ack from 4 for index 2
+2020/09/10 13:48:07 [1.2]Term timeout and its state candidate
+2020/09/10 13:48:07 [1] Start a election for term 3
+2020/09/10 13:48:07 [1.3] Sent request vote to 2
+2020/09/10 13:48:07 [1.3] Sent request vote to 0
+2020/09/10 13:48:08 [2.2]Term timeout and its state candidate
+2020/09/10 13:48:08 [2] Start a election for term 3
+2020/09/10 13:48:08 [2.3] Sent request vote to 1
+2020/09/10 13:48:08 [2.3] Sent request vote to 0
+2020/09/10 13:48:08 [1.3]Term timeout and its state follower
+2020/09/10 13:48:08 [1] Start a election for term 4
+2020/09/10 13:48:08 [1.4] Sent request vote to 2
+2020/09/10 13:48:08 [1.4] Sent request vote to 0
+2020/09/10 13:48:08 [2.3]Term timeout and its state follower
+2020/09/10 13:48:08 [2] Start a election for term 4
+2020/09/10 13:48:08 [2.4] Sent request vote to 1
+2020/09/10 13:48:08 [2.4] Sent request vote to 0
+2020/09/10 13:48:08 [2.1]Term timeout and its state follower
+2020/09/10 13:48:08 [2] Start a election for term 2
+2020/09/10 13:48:08 [2.2] Sent request vote to 1
+2020/09/10 13:48:08 [2.2] Sent request vote to 0
+2020/09/10 13:48:09 [1.5]Term timeout and its state follower
+2020/09/10 13:48:09 [1] Start a election for term 6
+2020/09/10 13:48:09 [1.6] Sent request vote to 2
+2020/09/10 13:48:09 [1.6] Sent request vote to 0
+2020/09/10 13:48:09 [1.1]Term timeout and its state follower
+2020/09/10 13:48:09 [1] Start a election for term 2
+2020/09/10 13:48:09 [1.2] Sent request vote to 4
+2020/09/10 13:48:09 [4.1] Recv RequestVote from 1 with enclosing term 2
+2020/09/10 13:48:09 [3.1] Appended to log and len of log is 2
+2020/09/10 13:48:09 Got a conform Append ack from 3 for index 2
+2020/09/10 13:48:09 [0] Commited at leader log index is 2
+2020/09/10 13:48:09 Logged in SM
+2020/09/10 13:48:09 [3.1] Commited in follower index is 2
+2020/09/10 13:48:09 Logged in SM
+2020/09/10 13:48:09 [0.1] Saw a greater term[2] and changed state to follower
+2020/09/10 13:48:09 [1.2] Sent request vote to 0
+2020/09/10 13:48:09 [1.2] Sent request vote to 2
+2020/09/10 13:48:09 [2.1] Recv RequestVote from 1 with enclosing term 2
+2020/09/10 13:48:09 Leader made 1 in term 2
+2020/09/10 13:48:09 [1.3]Term timeout and its state follower
+2020/09/10 13:48:09 [1] Start a election for term 4
+2020/09/10 13:48:09 [1.4] Sent request vote to 2
+2020/09/10 13:48:09 [1.2] Sent request vote to 3
+2020/09/10 13:48:09 [1.2] Appended to log and len of log is 2
+2020/09/10 13:48:09 [1.2] Commited in follower index is 2
+2020/09/10 13:48:09 [1.4] Sent request vote to 0
+2020/09/10 13:48:09 Logged in SM
+2020/09/10 13:48:09 [0.2]Term timeout and its state follower
+2020/09/10 13:48:09 [0] Start a election for term 3
+2020/09/10 13:48:09 [0.3] Sent request vote to 4
+2020/09/10 13:48:09 Got a conform Append ack from 1 for index 2
+2020/09/10 13:48:09 [0.3] Sent request vote to 1
+2020/09/10 13:48:09 [4.2] Recv RequestVote from 0 with enclosing term 3
+2020/09/10 13:48:10 [0.3] Sent request vote to 2
+2020/09/10 13:48:10 [2.2] Recv RequestVote from 0 with enclosing term 3
+2020/09/10 13:48:10 [0.3] Sent request vote to 3
+2020/09/10 13:48:10 [3.1] Recv RequestVote from 0 with enclosing term 3
+2020/09/10 13:48:10 Leader made 0 in term 3
+2020/09/10 13:48:10 [4.3] Commited in follower index is 2
+2020/09/10 13:48:10 Logged in SM
+2020/09/10 13:48:10 [1.2] Recv RequestVote from 0 with enclosing term 3
+2020/09/10 13:48:10 [1.4]Term timeout and its state candidate
+2020/09/10 13:48:10 [1] Start a election for term 5
+2020/09/10 13:48:10 [1.5] Sent request vote to 2
+2020/09/10 13:48:10 [0.3] Recv RequestVote from 1 with enclosing term 2
+2020/09/10 13:48:10 [1.5] Sent request vote to 0
+2020/09/10 13:48:10 Created From node 0 and the entry ID is 0_3
+2020/09/10 13:48:10 Created From node 0 and the entry ID is 0_4
+2020/09/10 13:48:10 [4.3] Appended to log and len of log is 4
+2020/09/10 13:48:10 Got a conform Append ack from 4 for index 3
+2020/09/10 13:48:10 [1.3] Appended to log and len of log is 4
+2020/09/10 13:48:10 Got a conform Append ack from 1 for index 3
+2020/09/10 13:48:10 [0] Commited at leader log index is 3
+2020/09/10 13:48:10 [0] Commited at leader log index is 4
+2020/09/10 13:48:10 Logged in SM
+2020/09/10 13:48:10 Logged in SM
+2020/09/10 13:48:10 [3.3] Appended to log and len of log is 4
+2020/09/10 13:48:10 [3.3] Commited in follower index is 3
+2020/09/10 13:48:10 Logged in SM
+2020/09/10 13:48:10 Logged in SM
+2020/09/10 13:48:10 [3.3] Commited in follower index is 4
+2020/09/10 13:48:10 Got a conform Append ack from 3 for index 3
+2020/09/10 13:48:10 [1.3] Appended to log and len of log is 4
+2020/09/10 13:48:10 [1.3] Commited in follower index is 3
+2020/09/10 13:48:10 Logged in SM
+2020/09/10 13:48:10 Logged in SM
+2020/09/10 13:48:10 [1.3] Commited in follower index is 4
+2020/09/10 13:48:10 Got a conform Append ack from 1 for index 4
+2020/09/10 13:48:10 [4.3] Appended to log and len of log is 4
+2020/09/10 13:48:10 [4.3] Commited in follower index is 3
+2020/09/10 13:48:10 Logged in SM
+2020/09/10 13:48:10 Logged in SM
+2020/09/10 13:48:10 [4.3] Commited in follower index is 4
+2020/09/10 13:48:10 [3.3] Appended to log and len of log is 4
+2020/09/10 13:48:10 Got a conform Append ack from 3 for index 4
+2020/09/10 13:48:10 [4.3] Appended to log and len of log is 4
+2020/09/10 13:48:10 Got a conform Append ack from 4 for index 4
+2020/09/10 13:48:10 Got a conform Append ack from 4 for index 5
+2020/09/10 13:48:11 [2.3]Term timeout and its state follower
+2020/09/10 13:48:11 [2] Start a election for term 4
+2020/09/10 13:48:11 [2.4] Sent request vote to 1
+2020/09/10 13:48:11 [2.4] Sent request vote to 0
+2020/09/10 13:48:11 [2.4]Term timeout and its state candidate
+2020/09/10 13:48:11 [2] Start a election for term 5
+2020/09/10 13:48:11 [2.5] Sent request vote to 1
+2020/09/10 13:48:11 [1.6]Term timeout and its state candidate
+2020/09/10 13:48:11 [1] Start a election for term 7
+2020/09/10 13:48:11 [1.7] Sent request vote to 2
+2020/09/10 13:48:11 [2.5] Sent request vote to 0
+2020/09/10 13:48:11 [1.7] Sent request vote to 0
+2020/09/10 13:48:11 [2.2]Term timeout and its state candidate
+2020/09/10 13:48:11 [2] Start a election for term 3
+2020/09/10 13:48:11 [2.3] Sent request vote to 1
+2020/09/10 13:48:11 [2.3] Sent request vote to 0
+2020/09/10 13:48:11 [1.4]Term timeout and its state candidate
+2020/09/10 13:48:11 [1] Start a election for term 5
+2020/09/10 13:48:11 [1.5] Sent request vote to 0
+2020/09/10 13:48:11 [1.5] Sent request vote to 2
+2020/09/10 13:48:12 [1.5]Term timeout and its state follower
+2020/09/10 13:48:12 [1] Start a election for term 6
+2020/09/10 13:48:12 [1.6] Sent request vote to 2
+2020/09/10 13:48:12 [1.6] Sent request vote to 0
+2020/09/10 13:48:12 Created From node 0 and the entry ID is 0_5
+2020/09/10 13:48:12 [1.3] Appended to log and len of log is 5
+2020/09/10 13:48:12 Got a conform Append ack from 1 for index 5
+2020/09/10 13:48:12 [3.3] Appended to log and len of log is 5
+2020/09/10 13:48:12 Got a conform Append ack from 3 for index 5
+2020/09/10 13:48:12 [0] Commited at leader log index is 5
+2020/09/10 13:48:12 Logged in SM
+2020/09/10 13:48:12 [3.3] Commited in follower index is 5
+2020/09/10 13:48:12 Logged in SM
+2020/09/10 13:48:12 [1.3] Commited in follower index is 5
+2020/09/10 13:48:12 Logged in SM
+2020/09/10 13:48:13 [1.7]Term timeout and its state follower
+2020/09/10 13:48:13 [1] Start a election for term 8
+2020/09/10 13:48:13 [1.8] Sent request vote to 2
+2020/09/10 13:48:13 [1.8] Sent request vote to 0
+2020/09/10 13:48:13 [1.5]Term timeout and its state follower
+2020/09/10 13:48:13 [1] Start a election for term 6
+2020/09/10 13:48:13 [1.6] Sent request vote to 2
+2020/09/10 13:48:14 [1.6] Sent request vote to 0
+2020/09/10 13:48:14 [1.6]Term timeout and its state candidate
+2020/09/10 13:48:14 [1] Start a election for term 7
+2020/09/10 13:48:14 [1.7] Sent request vote to 2
+2020/09/10 13:48:14 [2.4]Term timeout and its state candidate
+2020/09/10 13:48:14 [1.7] Sent request vote to 0
+2020/09/10 13:48:14 [2] Start a election for term 5
+2020/09/10 13:48:14 [2.5] Sent request vote to 1
+2020/09/10 13:48:14 [2.5] Sent request vote to 0
+2020/09/10 13:48:14 Created From node 0 and the entry ID is 0_6
+2020/09/10 13:48:14 [1.3] Appended to log and len of log is 6
+2020/09/10 13:48:14 Got a conform Append ack from 1 for index 6
+2020/09/10 13:48:14 [3.3] Appended to log and len of log is 6
+2020/09/10 13:48:14 Got a conform Append ack from 3 for index 6
+2020/09/10 13:48:14 [0] Commited at leader log index is 6
+2020/09/10 13:48:14 Logged in SM
+2020/09/10 13:48:14 [1.3] Commited in follower index is 6
+2020/09/10 13:48:14 Logged in SM
+2020/09/10 13:48:14 [3.3] Commited in follower index is 6
+2020/09/10 13:48:14 Logged in SM
+2020/09/10 13:48:14 [2.5]Term timeout and its state follower
+2020/09/10 13:48:14 [2] Start a election for term 6
+2020/09/10 13:48:14 [2.6] Sent request vote to 1
+2020/09/10 13:48:14 [2.6] Sent request vote to 0
+2020/09/10 13:48:14 [2.3]Term timeout and its state follower
+2020/09/10 13:48:14 [2] Start a election for term 4
+2020/09/10 13:48:14 [2.4] Sent request vote to 1
+2020/09/10 13:48:14 [2.4] Sent request vote to 0
+2020/09/10 13:48:15 [1.8]Term timeout and its state candidate
+2020/09/10 13:48:15 [1] Start a election for term 9
+2020/09/10 13:48:15 [1.9] Sent request vote to 2
+2020/09/10 13:48:15 [1.9] Sent request vote to 0
+2020/09/10 13:48:15 [1.6]Term timeout and its state candidate
+2020/09/10 13:48:15 [1] Start a election for term 7
+2020/09/10 13:48:15 [1.7] Sent request vote to 0
+2020/09/10 13:48:15 [1.7] Sent request vote to 2
+2020/09/10 13:48:16 [1.7]Term timeout and its state follower
+2020/09/10 13:48:16 [1] Start a election for term 8
+2020/09/10 13:48:16 [1.8] Sent request vote to 2
+2020/09/10 13:48:16 [1.8] Sent request vote to 0
+2020/09/10 13:48:16 Created From node 0 and the entry ID is 0_7
+2020/09/10 13:48:16 [1.3] Appended to log and len of log is 7
+2020/09/10 13:48:16 [3.3] Appended to log and len of log is 7
+2020/09/10 13:48:16 Got a conform Append ack from 3 for index 7
+2020/09/10 13:48:16 [3.3] Appended to log and len of log is 7
+2020/09/10 13:48:16 Got a conform Append ack from 3 for index 8
+2020/09/10 13:48:16 [0] Commited at leader log index is 7
+2020/09/10 13:48:16 Logged in SM
+2020/09/10 13:48:16 Got a conform Append ack from 1 for index 7
+2020/09/10 13:48:16 [3.3] Commited in follower index is 7
+2020/09/10 13:48:16 Logged in SM
+2020/09/10 13:48:16 [1.3] Commited in follower index is 7
+2020/09/10 13:48:16 Logged in SM
+2020/09/10 13:48:17 [2.5]Term timeout and its state follower
+2020/09/10 13:48:17 [2] Start a election for term 6
+2020/09/10 13:48:17 [2.6] Sent request vote to 1
+2020/09/10 13:48:17 [2.6] Sent request vote to 0
+2020/09/10 13:48:17 [2.6]Term timeout and its state candidate
+2020/09/10 13:48:17 [2] Start a election for term 7
+2020/09/10 13:48:17 [2.7] Sent request vote to 1
+2020/09/10 13:48:17 [1.9]Term timeout and its state follower
+2020/09/10 13:48:17 [1] Start a election for term 10
+2020/09/10 13:48:17 [1.10] Sent request vote to 2
+2020/09/10 13:48:17 [1.10] Sent request vote to 0
+2020/09/10 13:48:17 [2.7] Sent request vote to 0
+2020/09/10 13:48:17 [1.7]Term timeout and its state follower
+2020/09/10 13:48:17 [1] Start a election for term 8
+2020/09/10 13:48:17 [1.8] Sent request vote to 2
+2020/09/10 13:48:17 [1.8] Sent request vote to 0
+2020/09/10 13:48:17 [2.4]Term timeout and its state candidate
+2020/09/10 13:48:17 [2] Start a election for term 5
+2020/09/10 13:48:17 [2.5] Sent request vote to 1
+2020/09/10 13:48:17 [2.5] Sent request vote to 0
+2020/09/10 13:48:18 [1.8]Term timeout and its state candidate
+2020/09/10 13:48:18 [1] Start a election for term 9
+2020/09/10 13:48:18 [1.9] Sent request vote to 2
+2020/09/10 13:48:18 [1.9] Sent request vote to 0
+2020/09/10 13:48:18 Created From node 0 and the entry ID is 0_8
+2020/09/10 13:48:18 [1.3] Appended to log and len of log is 8
+2020/09/10 13:48:18 Got a conform Append ack from 1 for index 8
+2020/09/10 13:48:19 [1.10]Term timeout and its state candidate
+2020/09/10 13:48:19 [1] Start a election for term 11
+2020/09/10 13:48:19 [1.11] Sent request vote to 2
+2020/09/10 13:48:19 [1.11] Sent request vote to 0
+2020/09/10 13:48:19 [1.8]Term timeout and its state candidate
+2020/09/10 13:48:19 [1] Start a election for term 9
+2020/09/10 13:48:19 [1.9] Sent request vote to 2
+2020/09/10 13:48:19 [1.9] Sent request vote to 0
+2020/09/10 13:48:20 [2.6]Term timeout and its state candidate
+2020/09/10 13:48:20 [1.9]Term timeout and its state follower
+2020/09/10 13:48:20 [1] Start a election for term 10
+2020/09/10 13:48:20 [1.10] Sent request vote to 2
+2020/09/10 13:48:20 [2] Start a election for term 7
+2020/09/10 13:48:20 [2.7] Sent request vote to 0
+2020/09/10 13:48:20 [1.10] Sent request vote to 0
+2020/09/10 13:48:20 [2.7] Sent request vote to 1
+--- FAIL: TestFailNoAgree2B (14.52s)
+    config.go:476: one(1000) failed to reach agreement
+2020/09/10 13:48:20 I'm in 0 and its len 3
+2020/09/10 13:48:20 I'm in 1 and its len 3
+2020/09/10 13:48:20 I'm in 2 and its len 3
+Test (2B): concurrent Start()s ...
+2020/09/10 13:48:20 [2.7]Term timeout and its state follower
+2020/09/10 13:48:20 [2] Start a election for term 8
+2020/09/10 13:48:20 [2.8] Sent request vote to 1
+2020/09/10 13:48:20 [2.8] Sent request vote to 0
+2020/09/10 13:48:20 [2.5]Term timeout and its state follower
+2020/09/10 13:48:20 [2] Start a election for term 6
+2020/09/10 13:48:20 [2.6] Sent request vote to 1
+2020/09/10 13:48:21 [2.6] Sent request vote to 0
+2020/09/10 13:48:21 [0.0]Term timeout and its state follower
+2020/09/10 13:48:21 [0] Start a election for term 1
+2020/09/10 13:48:21 [0.1] Sent request vote to 2
+2020/09/10 13:48:21 [2.0] Recv RequestVote from 0 with enclosing term 1
+2020/09/10 13:48:21 Leader made 0 in term 1
+2020/09/10 13:48:21 [0.1] Sent request vote to 1
+2020/09/10 13:48:21 [1.11]Term timeout and its state follower
+2020/09/10 13:48:21 [1] Start a election for term 12
+2020/09/10 13:48:21 [1.12] Sent request vote to 2
+2020/09/10 13:48:21 [1.12] Sent request vote to 0
+2020/09/10 13:48:21 [1.9]Term timeout and its state follower
+2020/09/10 13:48:21 [1] Start a election for term 10
+2020/09/10 13:48:21 [1.10] Sent request vote to 2
+2020/09/10 13:48:21 [1.10] Sent request vote to 0
+2020/09/10 13:48:22 Created From node 0 and the entry ID is 0_1
+2020/09/10 13:48:22 Created From node 0 and the entry ID is 0_2
+2020/09/10 13:48:22 Created From node 0 and the entry ID is 0_3
+2020/09/10 13:48:22 Created From node 0 and the entry ID is 0_4
+2020/09/10 13:48:22 Created From node 0 and the entry ID is 0_5
+2020/09/10 13:48:22 Created From node 0 and the entry ID is 0_6
+2020/09/10 13:48:22 [1.1] Appended to log and len of log is 6
+2020/09/10 13:48:22 Got a conform Append ack from 1 for index 1
+2020/09/10 13:48:22 [0] Commited at leader log index is 1
+2020/09/10 13:48:22 [0] Commited at leader log index is 2
+2020/09/10 13:48:22 Logged in SM
+2020/09/10 13:48:22 Logged in SM
+2020/09/10 13:48:22 [0] Commited at leader log index is 3
+2020/09/10 13:48:22 [0] Commited at leader log index is 4
+2020/09/10 13:48:22 Logged in SM
+2020/09/10 13:48:22 Logged in SM
+2020/09/10 13:48:22 [0] Commited at leader log index is 5
+2020/09/10 13:48:22 [0] Commited at leader log index is 6
+2020/09/10 13:48:22 Logged in SM
+2020/09/10 13:48:22 Logged in SM
+2020/09/10 13:48:22 [2.1] Appended to log and len of log is 6
+2020/09/10 13:48:22 Got a conform Append ack from 2 for index 1
+2020/09/10 13:48:22 [2.1] Appended to log and len of log is 6
+2020/09/10 13:48:22 [2.1] Appended to log and len of log is 6
+2020/09/10 13:48:22 [2.1] Commited in follower index is 1
+2020/09/10 13:48:22 [1.10]Term timeout and its state candidate
+2020/09/10 13:48:22 [1] Start a election for term 11
+2020/09/10 13:48:22 [1.11] Sent request vote to 2
+2020/09/10 13:48:22 [1.11] Sent request vote to 0
+2020/09/10 13:48:22 [1.1] Appended to log and len of log is 6
+2020/09/10 13:48:22 [1.1] Commited in follower index is 1
+2020/09/10 13:48:22 Got a conform Append ack from 2 for index 2
+2020/09/10 13:48:22 Logged in SM
+2020/09/10 13:48:22 Logged in SM
+2020/09/10 13:48:22 [2.1] Commited in follower index is 2
+2020/09/10 13:48:22 [2.1] Commited in follower index is 3
+2020/09/10 13:48:22 Logged in SM
+2020/09/10 13:48:22 Logged in SM
+2020/09/10 13:48:22 [1.1] Commited in follower index is 2
+2020/09/10 13:48:22 [1.1] Commited in follower index is 3
+2020/09/10 13:48:22 Logged in SM
+2020/09/10 13:48:22 Logged in SM
+2020/09/10 13:48:22 Logged in SM
+2020/09/10 13:48:22 [1.1] Commited in follower index is 4
+2020/09/10 13:48:22 [2.1] Commited in follower index is 4
+2020/09/10 13:48:22 [1.3]Term timeout and its state follower
+2020/09/10 13:48:22 [1] Start a election for term 4
+2020/09/10 13:48:22 [1.4] Sent request vote to 2
+2020/09/10 13:48:22 [2.1] Commited in follower index is 5
+2020/09/10 13:48:22 Logged in SM
+2020/09/10 13:48:22 Logged in SM
+2020/09/10 13:48:22 Logged in SM
+2020/09/10 13:48:22 [1.4] Sent request vote to 0
+2020/09/10 13:48:22 [1.4] Sent request vote to 3
+2020/09/10 13:48:22 Logged in SM
+2020/09/10 13:48:22 [2.1] Commited in follower index is 6
+2020/09/10 13:48:22 [2.1] Appended to log and len of log is 6
+2020/09/10 13:48:22 [2.1] Appended to log and len of log is 6
+2020/09/10 13:48:22 [2.1] Appended to log and len of log is 6
+2020/09/10 13:48:22 [1.1] Commited in follower index is 5
+2020/09/10 13:48:22 [1.1] Commited in follower index is 6
+2020/09/10 13:48:22 [1.1] Appended to log and len of log is 6
+2020/09/10 13:48:22 [2.1] Appended to log and len of log is 6
+2020/09/10 13:48:22 Logged in SM
+2020/09/10 13:48:22 [2.1] Appended to log and len of log is 6
+2020/09/10 13:48:22 [1.1] Appended to log and len of log is 6
+2020/09/10 13:48:22 Got a conform Append ack from 2 for index 3
+2020/09/10 13:48:22 Got a conform Append ack from 1 for index 2
+2020/09/10 13:48:22 [2.1] Appended to log and len of log is 6
+2020/09/10 13:48:22 Got a conform Append ack from 2 for index 4
+2020/09/10 13:48:22 [1.1] Appended to log and len of log is 6
+2020/09/10 13:48:22 Got a conform Append ack from 1 for index 3
+2020/09/10 13:48:22 [2.1] Appended to log and len of log is 6
+2020/09/10 13:48:22 Got a conform Append ack from 2 for index 5
+2020/09/10 13:48:22 [1.1] Appended to log and len of log is 6
+2020/09/10 13:48:22 [1.1] Appended to log and len of log is 6
+2020/09/10 13:48:22 Got a conform Append ack from 1 for index 4
+2020/09/10 13:48:22 Got a conform Append ack from 1 for index 5
+2020/09/10 13:48:22 Got a conform Append ack from 2 for index 6
+2020/09/10 13:48:22 Got a conform Append ack from 1 for index 6
+2020/09/10 13:48:22 Got a conform Append ack from 2 for index 7
+2020/09/10 13:48:22 [1.4] Sent request vote to 4
+  ... Passed --2020/09/10 13:48:22 Got a conform Append ack from 2 for index 8
+2020/09/10 13:48:22 [1.1] Appended to log and len of log is 6
+2020/09/10 13:48:22 [1.1] Appended to log and len of log is 6
+2020/09/10 13:48:22 Got a conform Append ack from 1 for index 7
+2020/09/10 13:48:22 [1.1] Appended to log and len of log is 6
+2020/09/10 13:48:22 Got a conform Append ack from 1 for index 8
+2020/09/10 13:48:22 Got a conform Append ack from 2 for index 9
+   2.1  3   37   13527    6
+2020/09/10 13:48:22 Got a conform Append ack from 1 for index 9
+2020/09/10 13:48:22 Got a conform Append ack from 1 for index 10
+2020/09/10 13:48:22 I'm in 0 and its len 3
+2020/09/10 13:48:22 I'm in 1 and its len 3
+2020/09/10 13:48:22 I'm in 2 and its len 3
+Test (2B): rejoin of partitioned leader ...
+2020/09/10 13:48:22 Got a conform Append ack from 2 for index 10
+2020/09/10 13:48:23 [2.7]Term timeout and its state follower
+2020/09/10 13:48:23 [2] Start a election for term 8
+2020/09/10 13:48:23 [2.8] Sent request vote to 1
+2020/09/10 13:48:23 [2.8] Sent request vote to 0
+2020/09/10 13:48:23 [2.3]Term timeout and its state follower
+2020/09/10 13:48:23 [2] Start a election for term 4
+2020/09/10 13:48:23 [2.4] Sent request vote to 0
+2020/09/10 13:48:23 [2.4] Sent request vote to 3
+2020/09/10 13:48:23 [2.4] Sent request vote to 1
+2020/09/10 13:48:23 [1.12]Term timeout and its state candidate
+2020/09/10 13:48:23 [1] Start a election for term 13
+2020/09/10 13:48:23 [1.13] Sent request vote to 2
+2020/09/10 13:48:23 [1.13] Sent request vote to 0
+2020/09/10 13:48:23 [2.4] Sent request vote to 4
+2020/09/10 13:48:23 [2.8]Term timeout and its state candidate
+2020/09/10 13:48:23 [2] Start a election for term 9
+2020/09/10 13:48:23 [2.9] Sent request vote to 1
+2020/09/10 13:48:23 [2.9] Sent request vote to 0
+2020/09/10 13:48:23 [0.0]Term timeout and its state follower
+2020/09/10 13:48:23 [0] Start a election for term 1
+2020/09/10 13:48:23 [0.1] Sent request vote to 2
+2020/09/10 13:48:23 [2.0] Recv RequestVote from 0 with enclosing term 1
+2020/09/10 13:48:23 [0.1] Sent request vote to 1
+2020/09/10 13:48:23 [1.0] Recv RequestVote from 0 with enclosing term 1
+2020/09/10 13:48:23 Leader made 0 in term 1
+2020/09/10 13:48:23 [1.10]Term timeout and its state candidate
+2020/09/10 13:48:23 [1] Start a election for term 11
+2020/09/10 13:48:23 [1.11] Sent request vote to 2
+2020/09/10 13:48:23 [1.11] Sent request vote to 0
+2020/09/10 13:48:23 Created From node 0 and the entry ID is 0_1
+2020/09/10 13:48:23 [1.1] Appended to log and len of log is 1
+2020/09/10 13:48:23 Got a conform Append ack from 1 for index 1
+2020/09/10 13:48:23 [0] Commited at leader log index is 1
+2020/09/10 13:48:23 Logged in SM
+2020/09/10 13:48:24 [2.6]Term timeout and its state candidate
+2020/09/10 13:48:24 [2.1] Appended to log and len of log is 1
+2020/09/10 13:48:24 Got a conform Append ack from 2 for index 1
+2020/09/10 13:48:24 [2] Start a election for term 7
+2020/09/10 13:48:24 [2.7] Sent request vote to 1
+2020/09/10 13:48:24 [2.7] Sent request vote to 0
+2020/09/10 13:48:24 [1.1] Commited in follower index is 1
+2020/09/10 13:48:24 Logged in SM
+2020/09/10 13:48:24 [2.1] Appended to log and len of log is 1
+2020/09/10 13:48:24 [2.1] Commited in follower index is 1
+2020/09/10 13:48:24 Logged in SM
+2020/09/10 13:48:24 [1.11]Term timeout and its state follower
+2020/09/10 13:48:24 [1] Start a election for term 12
+2020/09/10 13:48:24 [1.12] Sent request vote to 2
+2020/09/10 13:48:24 [1.12] Sent request vote to 0
+2020/09/10 13:48:24 Got a conform Append ack from 2 for index 2
+2020/09/10 13:48:24 [1.4]Term timeout and its state candidate
+2020/09/10 13:48:24 [1] Start a election for term 5
+2020/09/10 13:48:24 [1.5] Sent request vote to 4
+2020/09/10 13:48:24 [3.3]Term timeout and its state follower
+2020/09/10 13:48:24 [3] Start a election for term 4
+2020/09/10 13:48:24 [3.4] Sent request vote to 4
+2020/09/10 13:48:24 [3.4] Sent request vote to 0
+2020/09/10 13:48:24 [1.5] Sent request vote to 0
+2020/09/10 13:48:24 [3.4] Sent request vote to 1
+2020/09/10 13:48:24 [3.4] Sent request vote to 2
+2020/09/10 13:48:24 [1.5] Sent request vote to 2
+2020/09/10 13:48:24 [1.5] Sent request vote to 3
+2020/09/10 13:48:24 [1.1]Term timeout and its state follower
+2020/09/10 13:48:24 [1] Start a election for term 2
+2020/09/10 13:48:24 [1.2] Sent request vote to 2
+2020/09/10 13:48:24 [1.2] Sent request vote to 0
+2020/09/10 13:48:24 Created From node 0 and the entry ID is 0_2
+2020/09/10 13:48:24 Created From node 0 and the entry ID is 0_3
+2020/09/10 13:48:25 Created From node 0 and the entry ID is 0_4
+2020/09/10 13:48:25 [4.3]Term timeout and its state follower
+2020/09/10 13:48:25 [4] Start a election for term 4
+2020/09/10 13:48:25 [4.4] Sent request vote to 3
+2020/09/10 13:48:25 [4.4] Sent request vote to 0
+2020/09/10 13:48:25 [4.4] Sent request vote to 1
+2020/09/10 13:48:25 [4.4] Sent request vote to 2
+2020/09/10 13:48:25 [1.13]Term timeout and its state follower
+2020/09/10 13:48:25 [1] Start a election for term 14
+2020/09/10 13:48:25 [1.14] Sent request vote to 2
+2020/09/10 13:48:25 [1.14] Sent request vote to 0
+2020/09/10 13:48:25 [2.1]Term timeout and its state follower
+2020/09/10 13:48:25 [2] Start a election for term 2
+2020/09/10 13:48:25 [2.2] Sent request vote to 1
+2020/09/10 13:48:25 [2.2] Sent request vote to 0
+2020/09/10 13:48:26 [1.11]Term timeout and its state follower
+2020/09/10 13:48:26 [1] Start a election for term 12
+2020/09/10 13:48:26 [1.12] Sent request vote to 2
+2020/09/10 13:48:26 [1.12] Sent request vote to 0
+2020/09/10 13:48:26 [2.8]Term timeout and its state candidate
+2020/09/10 13:48:26 [2] Start a election for term 9
+2020/09/10 13:48:26 [2.9] Sent request vote to 1
+2020/09/10 13:48:26 [2.9] Sent request vote to 0
+2020/09/10 13:48:26 [1.12]Term timeout and its state candidate
+2020/09/10 13:48:26 [1] Start a election for term 13
+2020/09/10 13:48:26 [1.13] Sent request vote to 2
+2020/09/10 13:48:26 [1.13] Sent request vote to 0
+2020/09/10 13:48:26 [1.5]Term timeout and its state follower
+2020/09/10 13:48:26 [1] Start a election for term 6
+2020/09/10 13:48:26 [2.4]Term timeout and its state candidate
+2020/09/10 13:48:26 [2] Start a election for term 5
+2020/09/10 13:48:26 [1.6] Sent request vote to 0
+2020/09/10 13:48:26 [1.6] Sent request vote to 2
+2020/09/10 13:48:26 [1.6] Sent request vote to 3
+2020/09/10 13:48:26 [1.6] Sent request vote to 4
+2020/09/10 13:48:26 [2.5] Sent request vote to 0
+2020/09/10 13:48:26 [2.5] Sent request vote to 1
+2020/09/10 13:48:26 [2.5] Sent request vote to 4
+2020/09/10 13:48:26 [2.5] Sent request vote to 3
+2020/09/10 13:48:26 [2.9]Term timeout and its state follower
+2020/09/10 13:48:26 [2] Start a election for term 10
+2020/09/10 13:48:26 [2.10] Sent request vote to 1
+2020/09/10 13:48:26 [1.2]Term timeout and its state candidate
+2020/09/10 13:48:26 [1] Start a election for term 3
+2020/09/10 13:48:26 [1.3] Sent request vote to 2
+2020/09/10 13:48:26 [2.10] Sent request vote to 0
+2020/09/10 13:48:26 [1.1]Term timeout and its state follower
+2020/09/10 13:48:26 [1] Start a election for term 2
+2020/09/10 13:48:26 [1.2] Sent request vote to 2
+2020/09/10 13:48:26 [2.1] Recv RequestVote from 1 with enclosing term 2
+2020/09/10 13:48:26 Leader made 1 in term 2
+2020/09/10 13:48:26 [1.2] Sent request vote to 0
+2020/09/10 13:48:26 [1.3] Sent request vote to 0
+2020/09/10 13:48:27 [2.7]Term timeout and its state follower
+2020/09/10 13:48:27 Created From node 1 and the entry ID is 1_1
+2020/09/10 13:48:27 [2] Start a election for term 8
+2020/09/10 13:48:27 [2.8] Sent request vote to 1
+2020/09/10 13:48:27 [2.8] Sent request vote to 0
+2020/09/10 13:48:27 [2.2] Appended to log and len of log is 2
+2020/09/10 13:48:27 Got a conform Append ack from 2 for index 2
+2020/09/10 13:48:27 [1] Commited at leader log index is 2
+2020/09/10 13:48:27 Logged in SM
+2020/09/10 13:48:27 [2.2] Commited in follower index is 2
+2020/09/10 13:48:27 Logged in SM
+2020/09/10 13:48:27 [1.14]Term timeout and its state candidate
+2020/09/10 13:48:27 [1] Start a election for term 15
+2020/09/10 13:48:27 [1.15] Sent request vote to 2
+2020/09/10 13:48:27 [1.15] Sent request vote to 0
+2020/09/10 13:48:27 [1.12]Term timeout and its state candidate
+2020/09/10 13:48:27 [1] Start a election for term 13
+2020/09/10 13:48:27 Created From node 0 and the entry ID is 0_5
+2020/09/10 13:48:27 [0.1] Saw a greater term[2] and changed state to follower
+2020/09/10 13:48:27 [1.13] Sent request vote to 2
+2020/09/10 13:48:27 [1.13] Sent request vote to 0
+2020/09/10 13:48:28 [0.2]Term timeout and its state follower
+2020/09/10 13:48:28 [0] Start a election for term 3
+2020/09/10 13:48:28 [0.3] Sent request vote to 2
+2020/09/10 13:48:28 [2.2] Recv RequestVote from 0 with enclosing term 3
+2020/09/10 13:48:28 [1.13]Term timeout and its state follower
+2020/09/10 13:48:28 [1] Start a election for term 14
+2020/09/10 13:48:28 [1.14] Sent request vote to 2
+2020/09/10 13:48:28 [0.3] Sent request vote to 1
+2020/09/10 13:48:28 [1.14] Sent request vote to 0
+2020/09/10 13:48:28 [1.6]Term timeout and its state candidate
+2020/09/10 13:48:28 [1] Start a election for term 7
+2020/09/10 13:48:28 [3.4]Term timeout and its state candidate
+2020/09/10 13:48:28 [3] Start a election for term 5
+2020/09/10 13:48:28 [3.5] Sent request vote to 4
+2020/09/10 13:48:28 [1.7] Sent request vote to 0
+2020/09/10 13:48:28 [1.7] Sent request vote to 2
+2020/09/10 13:48:28 [1.7] Sent request vote to 3
+2020/09/10 13:48:28 [1.7] Sent request vote to 4
+2020/09/10 13:48:28 [3.5] Sent request vote to 0
+2020/09/10 13:48:28 [3.5] Sent request vote to 1
+2020/09/10 13:48:28 [3.5] Sent request vote to 2
+2020/09/10 13:48:28 [1.3]Term timeout and its state follower
+2020/09/10 13:48:28 [1] Start a election for term 4
+2020/09/10 13:48:28 [1.4] Sent request vote to 2
+2020/09/10 13:48:28 [1.4] Sent request vote to 0
+2020/09/10 13:48:28 [2.2]Term timeout and its state candidate
+2020/09/10 13:48:28 [2] Start a election for term 3
+2020/09/10 13:48:28 [2.3] Sent request vote to 1
+2020/09/10 13:48:28 [2.3] Sent request vote to 0
+2020/09/10 13:48:29 [0.3]Term timeout and its state candidate
+2020/09/10 13:48:29 [0] Start a election for term 4
+2020/09/10 13:48:29 [0.4] Sent request vote to 2
+2020/09/10 13:48:29 [0.4] Sent request vote to 1
+2020/09/10 13:48:29 [2.2] Recv RequestVote from 0 with enclosing term 4
+2020/09/10 13:48:29 [2.9]Term timeout and its state follower
+2020/09/10 13:48:29 [2] Start a election for term 10
+2020/09/10 13:48:29 [2.10] Sent request vote to 1
+2020/09/10 13:48:29 [2.10] Sent request vote to 0
+2020/09/10 13:48:29 [2.5]Term timeout and its state follower
+2020/09/10 13:48:29 [2] Start a election for term 6
+2020/09/10 13:48:29 [2.6] Sent request vote to 4
+2020/09/10 13:48:29 [2.6] Sent request vote to 0
+2020/09/10 13:48:29 [2.6] Sent request vote to 1
+2020/09/10 13:48:29 [2.6] Sent request vote to 3
+2020/09/10 13:48:29 [1.15]Term timeout and its state follower
+2020/09/10 13:48:29 [1] Start a election for term 16
+2020/09/10 13:48:29 [1.16] Sent request vote to 2
+2020/09/10 13:48:29 [1.16] Sent request vote to 0
+2020/09/10 13:48:29 [2.8]Term timeout and its state candidate
+2020/09/10 13:48:29 [2] Start a election for term 9
+2020/09/10 13:48:29 [2.9] Sent request vote to 1
+2020/09/10 13:48:29 [2.10]Term timeout and its state candidate
+2020/09/10 13:48:30 [2] Start a election for term 11
+2020/09/10 13:48:30 [2.11] Sent request vote to 1
+2020/09/10 13:48:30 [2.11] Sent request vote to 0
+2020/09/10 13:48:30 [1.13]Term timeout and its state follower
+2020/09/10 13:48:30 [1] Start a election for term 14
+2020/09/10 13:48:30 [1.14] Sent request vote to 2
+2020/09/10 13:48:30 [1.14] Sent request vote to 0
+2020/09/10 13:48:30 [2.9] Sent request vote to 0
+2020/09/10 13:48:30 [0.4]Term timeout and its state candidate
+2020/09/10 13:48:30 [0] Start a election for term 5
+2020/09/10 13:48:30 [0.5] Sent request vote to 2
+2020/09/10 13:48:30 [1.14]Term timeout and its state candidate
+2020/09/10 13:48:30 [1] Start a election for term 15
+2020/09/10 13:48:30 [1.15] Sent request vote to 2
+2020/09/10 13:48:30 [0.5] Sent request vote to 1
+2020/09/10 13:48:30 [2.2] Recv RequestVote from 0 with enclosing term 5
+2020/09/10 13:48:30 [1.15] Sent request vote to 0
+2020/09/10 13:48:30 [1.7]Term timeout and its state follower
+2020/09/10 13:48:30 [1] Start a election for term 8
+2020/09/10 13:48:30 [1.8] Sent request vote to 4
+2020/09/10 13:48:30 [1.8] Sent request vote to 0
+2020/09/10 13:48:30 [4.4]Term timeout and its state candidate
+2020/09/10 13:48:30 [4] Start a election for term 5
+2020/09/10 13:48:30 [4.5] Sent request vote to 3
+2020/09/10 13:48:30 [1.8] Sent request vote to 2
+2020/09/10 13:48:30 [1.8] Sent request vote to 3
+2020/09/10 13:48:30 [2.2]Term timeout and its state follower
+2020/09/10 13:48:30 [2] Start a election for term 3
+2020/09/10 13:48:30 [2.3] Sent request vote to 1
+2020/09/10 13:48:30 [2.3] Sent request vote to 0
+2020/09/10 13:48:30 [4.5] Sent request vote to 1
+2020/09/10 13:48:30 [4.5] Sent request vote to 2
+2020/09/10 13:48:30 [4.5] Sent request vote to 0
+2020/09/10 13:48:30 [1.4]Term timeout and its state candidate
+2020/09/10 13:48:30 [1] Start a election for term 5
+2020/09/10 13:48:30 [1.5] Sent request vote to 2
+2020/09/10 13:48:30 [1.5] Sent request vote to 0
+2020/09/10 13:48:30 [0.5] Recv RequestVote from 2 with enclosing term 3
+2020/09/10 13:48:31 [0.5]Term timeout and its state candidate
+2020/09/10 13:48:31 [0] Start a election for term 6
+2020/09/10 13:48:31 [0.6] Sent request vote to 1
+2020/09/10 13:48:31 [0.6] Sent request vote to 2
+2020/09/10 13:48:31 [2.3] Recv RequestVote from 0 with enclosing term 6
+2020/09/10 13:48:31 [1.16]Term timeout and its state candidate
+2020/09/10 13:48:31 [1] Start a election for term 17
+2020/09/10 13:48:31 [1.17] Sent request vote to 2
+2020/09/10 13:48:31 [1.17] Sent request vote to 0
+2020/09/10 13:48:31 [2.3]Term timeout and its state follower
+2020/09/10 13:48:31 [2] Start a election for term 4
+2020/09/10 13:48:31 [2.4] Sent request vote to 1
+2020/09/10 13:48:31 [2.4] Sent request vote to 0
+2020/09/10 13:48:32 [1.14]Term timeout and its state candidate
+2020/09/10 13:48:32 [1.15]Term timeout and its state follower
+2020/09/10 13:48:32 [1] Start a election for term 16
+2020/09/10 13:48:32 [1.16] Sent request vote to 2
+2020/09/10 13:48:32 [1.16] Sent request vote to 0
+2020/09/10 13:48:32 [0.6]Term timeout and its state follower
+2020/09/10 13:48:32 [1] Start a election for term 15
+2020/09/10 13:48:32 [1.15] Sent request vote to 2
+2020/09/10 13:48:32 [0] Start a election for term 7
+2020/09/10 13:48:32 [0.7] Sent request vote to 2
+2020/09/10 13:48:32 [2.3] Recv RequestVote from 0 with enclosing term 7
+2020/09/10 13:48:32 [1.15] Sent request vote to 0
+2020/09/10 13:48:32 [0.7] Sent request vote to 1
+2020/09/10 13:48:32 [2.10]Term timeout and its state candidate
+2020/09/10 13:48:32 [1.8]Term timeout and its state candidate
+2020/09/10 13:48:32 [1] Start a election for term 9
+2020/09/10 13:48:32 [1.9] Sent request vote to 4
+2020/09/10 13:48:32 [3.5]Term timeout and its state follower
+2020/09/10 13:48:32 [3] Start a election for term 6
+2020/09/10 13:48:32 [3.6] Sent request vote to 4
+2020/09/10 13:48:32 [1.9] Sent request vote to 0
+2020/09/10 13:48:32 [1.9] Sent request vote to 2
+2020/09/10 13:48:32 [1.9] Sent request vote to 3
+2020/09/10 13:48:32 [3.6] Sent request vote to 0
+2020/09/10 13:48:32 [3.6] Sent request vote to 1
+2020/09/10 13:48:32 [3.6] Sent request vote to 2
+2020/09/10 13:48:32 [2] Start a election for term 11
+2020/09/10 13:48:32 [2.11] Sent request vote to 1
+2020/09/10 13:48:32 [2.11]Term timeout and its state follower
+2020/09/10 13:48:32 [2] Start a election for term 12
+2020/09/10 13:48:32 [2.12] Sent request vote to 1
+2020/09/10 13:48:32 [2.12] Sent request vote to 0
+2020/09/10 13:48:32 [2.6]Term timeout and its state candidate
+2020/09/10 13:48:32 [2] Start a election for term 7
+2020/09/10 13:48:32 [2.7] Sent request vote to 4
+2020/09/10 13:48:32 [2.7] Sent request vote to 0
+2020/09/10 13:48:32 [2.7] Sent request vote to 1
+2020/09/10 13:48:32 [2.7] Sent request vote to 3
+2020/09/10 13:48:32 [2.11] Sent request vote to 0
+2020/09/10 13:48:32 [1.5]Term timeout and its state follower
+2020/09/10 13:48:32 [1] Start a election for term 6
+2020/09/10 13:48:32 [1.6] Sent request vote to 2
+2020/09/10 13:48:32 [1.6] Sent request vote to 0
+2020/09/10 13:48:32 [2.9]Term timeout and its state follower
+2020/09/10 13:48:32 [2] Start a election for term 10
+2020/09/10 13:48:32 [2.10] Sent request vote to 1
+2020/09/10 13:48:32 [2.10] Sent request vote to 0
+2020/09/10 13:48:33 [0.7]Term timeout and its state candidate
+2020/09/10 13:48:33 [0] Start a election for term 8
+2020/09/10 13:48:33 [0.8] Sent request vote to 2
+2020/09/10 13:48:33 [2.3] Recv RequestVote from 0 with enclosing term 8
+2020/09/10 13:48:33 [0.8] Sent request vote to 1
+2020/09/10 13:48:33 [1.17]Term timeout and its state follower
+2020/09/10 13:48:33 [1] Start a election for term 18
+2020/09/10 13:48:33 [1.18] Sent request vote to 2
+2020/09/10 13:48:33 [1.18] Sent request vote to 0
+2020/09/10 13:48:33 [2.3]Term timeout and its state candidate
+2020/09/10 13:48:33 [2] Start a election for term 4
+2020/09/10 13:48:33 [2.4] Sent request vote to 1
+2020/09/10 13:48:33 [2.4] Sent request vote to 0
+2020/09/10 13:48:33 [0.8] Recv RequestVote from 2 with enclosing term 4
+2020/09/10 13:48:33 [1.15]Term timeout and its state follower
+2020/09/10 13:48:33 [1] Start a election for term 16
+2020/09/10 13:48:33 [1.16] Sent request vote to 2
+2020/09/10 13:48:33 [1.16] Sent request vote to 0
+2020/09/10 13:48:34 [1.16]Term timeout and its state candidate
+2020/09/10 13:48:34 [1] Start a election for term 17
+2020/09/10 13:48:34 [0.8]Term timeout and its state follower
+2020/09/10 13:48:34 [0] Start a election for term 9
+2020/09/10 13:48:34 [0.9] Sent request vote to 2
+2020/09/10 13:48:34 [2.4] Recv RequestVote from 0 with enclosing term 9
+2020/09/10 13:48:34 [0.9] Sent request vote to 1
+2020/09/10 13:48:34 [1.9]Term timeout and its state follower
+2020/09/10 13:48:34 [1] Start a election for term 10
+2020/09/10 13:48:34 [1.10] Sent request vote to 4
+2020/09/10 13:48:34 [1.17] Sent request vote to 2
+2020/09/10 13:48:34 [1.17] Sent request vote to 0
+2020/09/10 13:48:34 [1.6]Term timeout and its state candidate
+2020/09/10 13:48:34 [1] Start a election for term 7
+2020/09/10 13:48:34 [1.7] Sent request vote to 2
+2020/09/10 13:48:34 [1.7] Sent request vote to 0
+2020/09/10 13:48:34 [1.10] Sent request vote to 2
+2020/09/10 13:48:34 [1.10] Sent request vote to 0
+2020/09/10 13:48:34 [2.4]Term timeout and its state candidate
+2020/09/10 13:48:34 [2] Start a election for term 5
+2020/09/10 13:48:34 [2.5] Sent request vote to 1
+2020/09/10 13:48:35 [1.10] Sent request vote to 3
+2020/09/10 13:48:35 [2.5] Sent request vote to 0
+2020/09/10 13:48:35 [0.9]Term timeout and its state follower
+2020/09/10 13:48:35 [0] Start a election for term 10
+2020/09/10 13:48:35 [0.10] Sent request vote to 2
+2020/09/10 13:48:35 [2.4] Recv RequestVote from 0 with enclosing term 10
+2020/09/10 13:48:35 [0.10] Sent request vote to 1
+2020/09/10 13:48:35 [2.11]Term timeout and its state follower
+2020/09/10 13:48:35 [2] Start a election for term 12
+2020/09/10 13:48:35 [2.12] Sent request vote to 1
+2020/09/10 13:48:35 [2.7]Term timeout and its state follower
+2020/09/10 13:48:35 [2] Start a election for term 8
+2020/09/10 13:48:35 [2.8] Sent request vote to 4
+2020/09/10 13:48:35 [2.8] Sent request vote to 0
+2020/09/10 13:48:35 [2.12] Sent request vote to 0
+2020/09/10 13:48:35 [2.12]Term timeout and its state candidate
+2020/09/10 13:48:35 [1.18]Term timeout and its state candidate
+2020/09/10 13:48:35 [1] Start a election for term 19
+2020/09/10 13:48:35 [1.19] Sent request vote to 0
+2020/09/10 13:48:35 [2.8] Sent request vote to 1
+2020/09/10 13:48:35 [2.8] Sent request vote to 3
+2020/09/10 13:48:35 [2] Start a election for term 13
+2020/09/10 13:48:35 [2.13] Sent request vote to 1
+2020/09/10 13:48:35 [1.19] Sent request vote to 2
+2020/09/10 13:48:35 [2.13] Sent request vote to 0
+2020/09/10 13:48:35 [4.5]Term timeout and its state follower
+2020/09/10 13:48:35 [4] Start a election for term 6
+2020/09/10 13:48:35 [4.6] Sent request vote to 3
+2020/09/10 13:48:35 [4.6] Sent request vote to 0
+2020/09/10 13:48:35 [4.6] Sent request vote to 1
+2020/09/10 13:48:35 [4.6] Sent request vote to 2
+2020/09/10 13:48:36 [2.10]Term timeout and its state candidate
+2020/09/10 13:48:36 [1.16]Term timeout and its state candidate
+2020/09/10 13:48:36 [2] Start a election for term 11
+2020/09/10 13:48:36 [2.11] Sent request vote to 1
+2020/09/10 13:48:36 [1] Start a election for term 17
+2020/09/10 13:48:36 [2.11] Sent request vote to 0
+2020/09/10 13:48:36 [0.10]Term timeout and its state candidate
+2020/09/10 13:48:36 [0] Start a election for term 11
+2020/09/10 13:48:36 [0.11] Sent request vote to 2
+2020/09/10 13:48:36 [2.4] Recv RequestVote from 0 with enclosing term 11
+2020/09/10 13:48:36 [0.11] Sent request vote to 1
+2020/09/10 13:48:36 [1.17] Sent request vote to 2
+2020/09/10 13:48:36 [1.17] Sent request vote to 0
+2020/09/10 13:48:36 [1.17]Term timeout and its state follower
+2020/09/10 13:48:36 [1] Start a election for term 18
+2020/09/10 13:48:36 [1.18] Sent request vote to 2
+2020/09/10 13:48:36 [1.18] Sent request vote to 0
+2020/09/10 13:48:36 [1.10]Term timeout and its state candidate
+2020/09/10 13:48:36 [1] Start a election for term 11
+2020/09/10 13:48:36 [1.11] Sent request vote to 4
+2020/09/10 13:48:36 [3.6]Term timeout and its state candidate
+2020/09/10 13:48:36 [1.11] Sent request vote to 3
+2020/09/10 13:48:36 [1.11] Sent request vote to 0
+2020/09/10 13:48:36 [1.11] Sent request vote to 2
+2020/09/10 13:48:36 [3] Start a election for term 7
+2020/09/10 13:48:36 [3.7] Sent request vote to 4
+2020/09/10 13:48:36 [3.7] Sent request vote to 0
+2020/09/10 13:48:36 [3.7] Sent request vote to 1
+2020/09/10 13:48:36 [3.7] Sent request vote to 2
+2020/09/10 13:48:36 [2.4]Term timeout and its state candidate
+2020/09/10 13:48:36 [2] Start a election for term 5
+2020/09/10 13:48:36 [2.5] Sent request vote to 1
+2020/09/10 13:48:36 [2.5] Sent request vote to 0
+2020/09/10 13:48:36 [0.11] Recv RequestVote from 2 with enclosing term 5
+2020/09/10 13:48:36 [1.7]Term timeout and its state follower
+2020/09/10 13:48:36 [1] Start a election for term 8
+2020/09/10 13:48:36 [1.8] Sent request vote to 2
+2020/09/10 13:48:36 [1.8] Sent request vote to 0
+2020/09/10 13:48:37 [0.11]Term timeout and its state follower
+2020/09/10 13:48:37 [0] Start a election for term 12
+2020/09/10 13:48:37 [0.12] Sent request vote to 2
+2020/09/10 13:48:37 [2.5] Recv RequestVote from 0 with enclosing term 12
+2020/09/10 13:48:37 [0.12] Sent request vote to 1
+2020/09/10 13:48:37 [1.19]Term timeout and its state follower
+2020/09/10 13:48:37 [1] Start a election for term 20
+2020/09/10 13:48:37 [1.20] Sent request vote to 2
+--- FAIL: TestRejoin2B (15.19s)
+    config.go:476: one(104) failed to reach agreement
+2020/09/10 13:48:37 I'm in 0 and its len 5
+2020/09/10 13:48:37 I'm in 1 and its len 5
+2020/09/10 13:48:37 I'm in 2 and its len 5
+2020/09/10 13:48:37 I'm in 3 and its len 5
+2020/09/10 13:48:37 I'm in 4 and its len 5
+Test (2B): leader backs up quickly over incorrect follower logs ...
+2020/09/10 13:48:37 [1.17]Term timeout and its state follower
+2020/09/10 13:48:37 [1] Start a election for term 18
+2020/09/10 13:48:37 [2.5]Term timeout and its state follower
+2020/09/10 13:48:37 [1.18] Sent request vote to 2
+2020/09/10 13:48:38 [1.18] Sent request vote to 0
+2020/09/10 13:48:38 [1.20] Sent request vote to 0
+2020/09/10 13:48:38 [2] Start a election for term 6
+2020/09/10 13:48:38 [2.6] Sent request vote to 1
+2020/09/10 13:48:38 [2.6] Sent request vote to 0
+2020/09/10 13:48:38 [1.18]Term timeout and its state candidate
+2020/09/10 13:48:38 [1] Start a election for term 19
+2020/09/10 13:48:38 [1.19] Sent request vote to 2
+2020/09/10 13:48:38 [1.19] Sent request vote to 0
+2020/09/10 13:48:38 [2.12]Term timeout and its state candidate
+2020/09/10 13:48:38 [2] Start a election for term 13
+2020/09/10 13:48:38 [2.13] Sent request vote to 1
+2020/09/10 13:48:38 [0.12]Term timeout and its state candidate
+2020/09/10 13:48:38 [0] Start a election for term 13
+2020/09/10 13:48:38 [0.13] Sent request vote to 2
+2020/09/10 13:48:38 [2.13] Sent request vote to 0
+2020/09/10 13:48:38 [0.13] Sent request vote to 1
+2020/09/10 13:48:38 [2.8]Term timeout and its state candidate
+2020/09/10 13:48:38 [2] Start a election for term 9
+2020/09/10 13:48:38 [2.9] Sent request vote to 4
+2020/09/10 13:48:38 [2.9] Sent request vote to 0
+2020/09/10 13:48:38 [2.9] Sent request vote to 1
+2020/09/10 13:48:38 [2.9] Sent request vote to 3
+2020/09/10 13:48:38 [1.11]Term timeout and its state follower
+2020/09/10 13:48:38 [1] Start a election for term 12
+2020/09/10 13:48:38 [1.12] Sent request vote to 4
+2020/09/10 13:48:38 [1.12] Sent request vote to 0
+2020/09/10 13:48:38 [1.12] Sent request vote to 3
+2020/09/10 13:48:38 [1.12] Sent request vote to 2
+2020/09/10 13:48:38 [2.13]Term timeout and its state follower
+2020/09/10 13:48:38 [2] Start a election for term 14
+2020/09/10 13:48:38 [2.14] Sent request vote to 1
+2020/09/10 13:48:38 [2.14] Sent request vote to 0
+2020/09/10 13:48:38 [1.8]Term timeout and its state candidate
+2020/09/10 13:48:38 [1] Start a election for term 9
+2020/09/10 13:48:38 [1.9] Sent request vote to 2
+2020/09/10 13:48:38 [1.9] Sent request vote to 0
+2020/09/10 13:48:38 [0.0]Term timeout and its state follower
+2020/09/10 13:48:39 [2.11]Term timeout and its state follower
+2020/09/10 13:48:39 [2] Start a election for term 12
+2020/09/10 13:48:39 [2.12] Sent request vote to 1
+2020/09/10 13:48:39 [0] Start a election for term 1
+2020/09/10 13:48:39 [0.1] Sent request vote to 4
+2020/09/10 13:48:39 [4.0] Recv RequestVote from 0 with enclosing term 1
+2020/09/10 13:48:39 [2.12] Sent request vote to 0
+2020/09/10 13:48:39 [0.1] Sent request vote to 3
+2020/09/10 13:48:39 [0.1] Sent request vote to 1
+2020/09/10 13:48:39 [0.1] Sent request vote to 2
+2020/09/10 13:48:39 [2.0] Recv RequestVote from 0 with enclosing term 1
+2020/09/10 13:48:39 [0.13]Term timeout and its state follower
+2020/09/10 13:48:39 [0] Start a election for term 14
+2020/09/10 13:48:39 [0.14] Sent request vote to 2
+2020/09/10 13:48:39 [0.14] Sent request vote to 1
+2020/09/10 13:48:39 [3.0] Recv RequestVote from 0 with enclosing term 1
+2020/09/10 13:48:39 Leader made 0 in term 1
+2020/09/10 13:48:39 Created From node 0 and the entry ID is 0_1
+2020/09/10 13:48:39 [4.1] Appended to log and len of log is 1
+2020/09/10 13:48:39 Got a conform Append ack from 4 for index 1
+2020/09/10 13:48:39 [1.1] Appended to log and len of log is 1
+2020/09/10 13:48:39 Got a conform Append ack from 1 for index 1
+2020/09/10 13:48:39 [0] Commited at leader log index is 1
+2020/09/10 13:48:39 Logged in SM
+2020/09/10 13:48:39 [2.1] Appended to log and len of log is 1
+2020/09/10 13:48:39 [2.1] Commited in follower index is 1
+2020/09/10 13:48:39 Got a conform Append ack from 2 for index 1
+2020/09/10 13:48:39 [3.1] Appended to log and len of log is 1
+2020/09/10 13:48:39 [3.1] Commited in follower index is 1
+2020/09/10 13:48:39 Got a conform Append ack from 3 for index 1
+2020/09/10 13:48:39 Logged in SM
+2020/09/10 13:48:39 [4.1] Commited in follower index is 1
+2020/09/10 13:48:39 [1.1] Commited in follower index is 1
+2020/09/10 13:48:39 Logged in SM
+2020/09/10 13:48:39 Logged in SM
+2020/09/10 13:48:39 Logged in SM
+2020/09/10 13:48:39 [1.20]Term timeout and its state candidate
+2020/09/10 13:48:39 [1] Start a election for term 21
+2020/09/10 13:48:39 [1.21] Sent request vote to 2
+2020/09/10 13:48:39 [1.21] Sent request vote to 0
+2020/09/10 13:48:39 [2.5]Term timeout and its state follower
+2020/09/10 13:48:39 [2] Start a election for term 6
+2020/09/10 13:48:39 [2.6] Sent request vote to 1
+2020/09/10 13:48:39 [2.6] Sent request vote to 0
+2020/09/10 13:48:39 [1.1] Recv RequestVote from 0 with enclosing term 1
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_2
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_3
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_4
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_5
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_6
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_7
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_8
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_9
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_10
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_11
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_12
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_13
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_14
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_15
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_16
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_17
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_18
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_19
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_20
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_21
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_22
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_23
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_24
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_25
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_26
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_27
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_28
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_29
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_30
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_31
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_32
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_33
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_34
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_35
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_36
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_37
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_38
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_39
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_40
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_41
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_42
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_43
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_44
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_45
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_46
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_47
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_48
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_49
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_50
+2020/09/10 13:48:40 Created From node 0 and the entry ID is 0_51
+2020/09/10 13:48:40 [1.18]Term timeout and its state candidate
+2020/09/10 13:48:40 [1] Start a election for term 19
+2020/09/10 13:48:40 [1.19] Sent request vote to 2
+2020/09/10 13:48:40 [1.19] Sent request vote to 0
+2020/09/10 13:48:40 [1.1] Appended to log and len of log is 51
+2020/09/10 13:48:40 Got a conform Append ack from 1 for index 2
+2020/09/10 13:48:40 [1.1] Appended to log and len of log is 51
+2020/09/10 13:48:40 Got a conform Append ack from 1 for index 3
+2020/09/10 13:48:40 [0] Commited at leader log index is 2
+2020/09/10 13:48:40 [0] Commited at leader log index is 3
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [0] Commited at leader log index is 4
+2020/09/10 13:48:40 [0] Commited at leader log index is 5
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [0] Commited at leader log index is 6
+2020/09/10 13:48:40 [0] Commited at leader log index is 7
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [0] Commited at leader log index is 8
+2020/09/10 13:48:40 [0] Commited at leader log index is 9
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [0] Commited at leader log index is 10
+2020/09/10 13:48:40 [0] Commited at leader log index is 11
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [0] Commited at leader log index is 12
+2020/09/10 13:48:40 [0] Commited at leader log index is 13
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [0] Commited at leader log index is 14
+2020/09/10 13:48:40 [0] Commited at leader log index is 15
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [0] Commited at leader log index is 16
+2020/09/10 13:48:40 [0] Commited at leader log index is 17
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [0] Commited at leader log index is 18
+2020/09/10 13:48:40 [0] Commited at leader log index is 19
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [0] Commited at leader log index is 20
+2020/09/10 13:48:40 [0] Commited at leader log index is 21
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [0] Commited at leader log index is 22
+2020/09/10 13:48:40 [0] Commited at leader log index is 23
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [0] Commited at leader log index is 24
+2020/09/10 13:48:40 [0] Commited at leader log index is 25
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [0] Commited at leader log index is 26
+2020/09/10 13:48:40 [0] Commited at leader log index is 27
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [0] Commited at leader log index is 28
+2020/09/10 13:48:40 [0] Commited at leader log index is 29
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [0] Commited at leader log index is 30
+2020/09/10 13:48:40 [0] Commited at leader log index is 31
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [0] Commited at leader log index is 32
+2020/09/10 13:48:40 [0] Commited at leader log index is 33
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [0] Commited at leader log index is 34
+2020/09/10 13:48:40 [0] Commited at leader log index is 35
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [0] Commited at leader log index is 36
+2020/09/10 13:48:40 [0] Commited at leader log index is 37
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [0] Commited at leader log index is 38
+2020/09/10 13:48:40 [0] Commited at leader log index is 39
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [0] Commited at leader log index is 40
+2020/09/10 13:48:40 [0] Commited at leader log index is 41
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [0] Commited at leader log index is 42
+2020/09/10 13:48:40 [0] Commited at leader log index is 43
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [0] Commited at leader log index is 44
+2020/09/10 13:48:40 [0] Commited at leader log index is 45
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [0] Commited at leader log index is 46
+2020/09/10 13:48:40 [0] Commited at leader log index is 47
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [0] Commited at leader log index is 48
+2020/09/10 13:48:40 [0] Commited at leader log index is 49
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [0] Commited at leader log index is 50
+2020/09/10 13:48:40 [0] Commited at leader log index is 51
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [1.19]Term timeout and its state follower
+2020/09/10 13:48:40 [1] Start a election for term 20
+2020/09/10 13:48:40 [1.20] Sent request vote to 2
+2020/09/10 13:48:40 [0.14]Term timeout and its state follower
+2020/09/10 13:48:40 [0] Start a election for term 15
+2020/09/10 13:48:40 [0.15] Sent request vote to 2
+2020/09/10 13:48:40 [0.15] Sent request vote to 1
+2020/09/10 13:48:40 [1.20] Sent request vote to 0
+2020/09/10 13:48:40 [1.1] Appended to log and len of log is 51
+2020/09/10 13:48:40 [1.1] Commited in follower index is 2
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [1.1] Commited in follower index is 3
+2020/09/10 13:48:40 [1.1] Commited in follower index is 4
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [1.1] Commited in follower index is 5
+2020/09/10 13:48:40 [1.1] Commited in follower index is 6
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [1.1] Commited in follower index is 7
+2020/09/10 13:48:40 [1.1] Commited in follower index is 8
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [1.1] Commited in follower index is 9
+2020/09/10 13:48:40 [1.1] Commited in follower index is 10
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [1.1] Commited in follower index is 11
+2020/09/10 13:48:40 [1.1] Commited in follower index is 12
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [1.1] Commited in follower index is 13
+2020/09/10 13:48:40 [1.1] Commited in follower index is 14
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [1.1] Commited in follower index is 15
+2020/09/10 13:48:40 [1.1] Commited in follower index is 16
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [1.1] Commited in follower index is 17
+2020/09/10 13:48:40 [1.1] Commited in follower index is 18
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [1.1] Commited in follower index is 19
+2020/09/10 13:48:40 [1.1] Commited in follower index is 20
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [1.1] Commited in follower index is 21
+2020/09/10 13:48:40 [1.1] Commited in follower index is 22
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [1.1] Commited in follower index is 23
+2020/09/10 13:48:40 [1.1] Commited in follower index is 24
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [1.1] Commited in follower index is 25
+2020/09/10 13:48:40 [1.1] Commited in follower index is 26
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [1.1] Commited in follower index is 27
+2020/09/10 13:48:40 [1.1] Commited in follower index is 28
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [1.1] Commited in follower index is 29
+2020/09/10 13:48:40 [1.1] Commited in follower index is 30
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [1.1] Commited in follower index is 31
+2020/09/10 13:48:40 [1.1] Commited in follower index is 32
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [1.1] Commited in follower index is 33
+2020/09/10 13:48:40 [1.1] Commited in follower index is 34
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [1.1] Commited in follower index is 35
+2020/09/10 13:48:40 [1.1] Commited in follower index is 36
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [1.1] Commited in follower index is 37
+2020/09/10 13:48:40 [1.1] Commited in follower index is 38
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [1.1] Commited in follower index is 39
+2020/09/10 13:48:40 [1.1] Commited in follower index is 40
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [1.1] Commited in follower index is 41
+2020/09/10 13:48:40 [1.1] Commited in follower index is 42
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [1.1] Commited in follower index is 43
+2020/09/10 13:48:40 [1.1] Commited in follower index is 44
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [1.1] Commited in follower index is 45
+2020/09/10 13:48:40 [1.1] Commited in follower index is 46
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [1.1] Commited in follower index is 47
+2020/09/10 13:48:40 [1.1] Commited in follower index is 48
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [1.1] Commited in follower index is 49
+2020/09/10 13:48:40 [1.1] Commited in follower index is 50
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 Logged in SM
+2020/09/10 13:48:40 [1.1] Commited in follower index is 51
+2020/09/10 13:48:40 Got a conform Append ack from 1 for index 4
+2020/09/10 13:48:40 [1.1] Appended to log and len of log is 51
+2020/09/10 13:48:40 [1.12]Term timeout and its state candidate
+2020/09/10 13:48:40 [1] Start a election for term 13
+2020/09/10 13:48:40 [1.13] Sent request vote to 4
+2020/09/10 13:48:40 [1.13] Sent request vote to 0
+2020/09/10 13:48:40 [1.13] Sent request vote to 2
+2020/09/10 13:48:40 [1.13] Sent request vote to 3
+2020/09/10 13:48:40 [3.7]Term timeout and its state follower
+2020/09/10 13:48:40 [3] Start a election for term 8
+2020/09/10 13:48:40 [3.8] Sent request vote to 4
+2020/09/10 13:48:40 [3.8] Sent request vote to 0
+2020/09/10 13:48:40 [3.8] Sent request vote to 1
+2020/09/10 13:48:40 [4.6]Term timeout and its state candidate
+2020/09/10 13:48:40 [3.8] Sent request vote to 2
+2020/09/10 13:48:40 [4] Start a election for term 7
+2020/09/10 13:48:40 [4.7] Sent request vote to 3
+2020/09/10 13:48:40 [4.7] Sent request vote to 1
+2020/09/10 13:48:40 [4.7] Sent request vote to 0
+2020/09/10 13:48:40 [4.7] Sent request vote to 2
+2020/09/10 13:48:40 [1.9]Term timeout and its state follower
+2020/09/10 13:48:40 [1] Start a election for term 10
+2020/09/10 13:48:40 [1.10] Sent request vote to 2
+2020/09/10 13:48:40 [1.10] Sent request vote to 0
+2020/09/10 13:48:40 [2.6]Term timeout and its state candidate
+2020/09/10 13:48:40 [2] Start a election for term 7
+2020/09/10 13:48:40 [2.7] Sent request vote to 0
+2020/09/10 13:48:40 [2.7] Sent request vote to 1
+2020/09/10 13:48:41 [2.13]Term timeout and its state follower
+2020/09/10 13:48:41 [2] Start a election for term 14
+2020/09/10 13:48:41 [2.14] Sent request vote to 1
+2020/09/10 13:48:41 [2.14] Sent request vote to 0
+2020/09/10 13:48:41 [0.15]Term timeout and its state follower
+2020/09/10 13:48:41 [0] Start a election for term 16
+2020/09/10 13:48:41 [0.16] Sent request vote to 2
+2020/09/10 13:48:41 [0.16] Sent request vote to 1
+2020/09/10 13:48:41 [2.9]Term timeout and its state follower
+2020/09/10 13:48:41 [2] Start a election for term 10
+2020/09/10 13:48:41 [2.10] Sent request vote to 4
+2020/09/10 13:48:41 [2.10] Sent request vote to 0
+2020/09/10 13:48:41 [2.10] Sent request vote to 1
+2020/09/10 13:48:41 [1.21]Term timeout and its state follower
+2020/09/10 13:48:41 [1] Start a election for term 22
+2020/09/10 13:48:41 [1.22] Sent request vote to 0
+2020/09/10 13:48:41 [2.10] Sent request vote to 3
+2020/09/10 13:48:41 [2.14]Term timeout and its state candidate
+2020/09/10 13:48:41 [1.22] Sent request vote to 2
+2020/09/10 13:48:41 [2] Start a election for term 15
+2020/09/10 13:48:41 [2.15] Sent request vote to 1
+2020/09/10 13:48:41 [2.15] Sent request vote to 0
+2020/09/10 13:48:41 [1.19]Term timeout and its state follower
+2020/09/10 13:48:41 [1] Start a election for term 20
+2020/09/10 13:48:41 [1.20] Sent request vote to 2
+2020/09/10 13:48:42 [2.12]Term timeout and its state candidate
+2020/09/10 13:48:42 [2] Start a election for term 13
+2020/09/10 13:48:42 [2.13] Sent request vote to 1
+2020/09/10 13:48:42 [2.13] Sent request vote to 0
+2020/09/10 13:48:42 [1.20] Sent request vote to 0
+2020/09/10 13:48:42 [1.20]Term timeout and its state candidate
+2020/09/10 13:48:42 [1] Start a election for term 21
+2020/09/10 13:48:42 [1.21] Sent request vote to 2
+2020/09/10 13:48:42 [1.21] Sent request vote to 0
+2020/09/10 13:48:42 [0.16]Term timeout and its state candidate
+2020/09/10 13:48:42 [0] Start a election for term 17
+2020/09/10 13:48:42 [0.17] Sent request vote to 2
+2020/09/10 13:48:42 [0.17] Sent request vote to 1
+2020/09/10 13:48:42 [1.1]Term timeout and its state follower
+2020/09/10 13:48:42 [1] Start a election for term 2
+2020/09/10 13:48:42 [1.2] Sent request vote to 2
+2020/09/10 13:48:42 [1.2] Sent request vote to 3
+2020/09/10 13:48:42 [1.2] Sent request vote to 4
+2020/09/10 13:48:42 [1.13]Term timeout and its state follower
+2020/09/10 13:48:42 [1] Start a election for term 14
+2020/09/10 13:48:42 [1.14] Sent request vote to 4
+2020/09/10 13:48:42 [1.14] Sent request vote to 0
+2020/09/10 13:48:42 [1.14] Sent request vote to 2
+2020/09/10 13:48:42 [1.14] Sent request vote to 3
+2020/09/10 13:48:42 [1.2] Sent request vote to 0
+2020/09/10 13:48:42 [1.10]Term timeout and its state candidate
+2020/09/10 13:48:42 [1] Start a election for term 11
+2020/09/10 13:48:42 [1.11] Sent request vote to 2
+2020/09/10 13:48:42 [2.6]Term timeout and its state follower
+2020/09/10 13:48:42 [1.11] Sent request vote to 0
+2020/09/10 13:48:42 [2] Start a election for term 7
+2020/09/10 13:48:42 [2.7] Sent request vote to 1
+2020/09/10 13:48:42 [2.7] Sent request vote to 0
+2020/09/10 13:48:43 [2.1]Term timeout and its state follower
+2020/09/10 13:48:43 [2] Start a election for term 2
+2020/09/10 13:48:43 [2.2] Sent request vote to 4
+2020/09/10 13:48:43 [4.1] Recv RequestVote from 2 with enclosing term 2
+2020/09/10 13:48:43 [2.2] Sent request vote to 0
+2020/09/10 13:48:43 [2.2] Sent request vote to 1
+2020/09/10 13:48:43 [2.2] Sent request vote to 3
+2020/09/10 13:48:43 [3.1] Recv RequestVote from 2 with enclosing term 2
+2020/09/10 13:48:43 Leader made 2 in term 2
+2020/09/10 13:48:43 Created From node 2 and the entry ID is 2_1
+2020/09/10 13:48:43 [4.2] Appended to log and len of log is 2
+2020/09/10 13:48:43 Got a conform Append ack from 4 for index 2
+2020/09/10 13:48:43 [3.2] Appended to log and len of log is 2
+2020/09/10 13:48:43 Got a conform Append ack from 3 for index 2
+2020/09/10 13:48:43 [2] Commited at leader log index is 2
+2020/09/10 13:48:43 Logged in SM
+2020/09/10 13:48:43 apply error: commit index=2 server=2 2977114357033448418 != server=1 127215928702441062
+exit status 1
+FAIL	_/Users/developerharsha/Documents/6.824/src/raft	45.052s

@@ -1,0 +1,630 @@
+2020/09/14 15:05:58 I'm in 0 and its len 5
+2020/09/14 15:05:58 I'm in 1 and its len 5
+2020/09/14 15:05:58 I'm in 2 and its len 5
+2020/09/14 15:05:58 I'm in 3 and its len 5
+2020/09/14 15:05:58 I'm in 4 and its len 5
+Test (2B): leader backs up quickly over incorrect follower logs ...
+2020/09/14 15:05:59 [0.0]Term timeout and its state follower
+2020/09/14 15:05:59 [0] Start a election for term 1
+2020/09/14 15:05:59 [0.1] Sent request vote to 4
+2020/09/14 15:05:59 [0.1] Sent request vote to 2
+2020/09/14 15:05:59 [0.1] Sent request vote to 3
+2020/09/14 15:05:59 [0.1] Sent request vote to 1
+2020/09/14 15:05:59 [1.0] Recv RequestVote with &{0 1 -1}
+2020/09/14 15:05:59 [4.0] Recv RequestVote with &{0 1 -1}
+2020/09/14 15:05:59 [4.1] Recv Replied with &{0 true}
+2020/09/14 15:05:59 [1.1] Recv Replied with &{0 true}
+2020/09/14 15:05:59 [3.0] Recv RequestVote with &{0 1 -1}
+2020/09/14 15:05:59 [3.1] Recv Replied with &{0 true}
+2020/09/14 15:05:59 Leader made 0 in term 1
+2020/09/14 15:05:59 [2.0] Recv RequestVote with &{0 1 -1}
+2020/09/14 15:05:59 [2.1] Recv Replied with &{0 true}
+2020/09/14 15:05:59 Created From node 0 and the entry ID is 0_1 and value is 2698729953005299554
+2020/09/14 15:05:59 [3.1] Appended to log and len of log is 1
+2020/09/14 15:05:59 [4.1] Appended to log and len of log is 1
+2020/09/14 15:05:59 [2.1] Appended to log and len of log is 1
+2020/09/14 15:05:59 [1.1] Appended to log and len of log is 1
+2020/09/14 15:05:59 [0.1]Got a conform Append ack from 3 for till index 1
+2020/09/14 15:05:59 [0.1]Got a conform Append ack from 4 for till index 1
+2020/09/14 15:05:59 [0] Commited at leader log index is 1
+2020/09/14 15:05:59 [0.1]Got a conform Append ack from 1 for till index 1
+2020/09/14 15:05:59 [0.1]Got a conform Append ack from 2 for till index 1
+2020/09/14 15:06:00 [4.1] Commited in follower index is 1
+2020/09/14 15:06:00 [1.1] Commited in follower index is 1
+2020/09/14 15:06:00 [2.1] Commited in follower index is 1
+2020/09/14 15:06:00 [3.1] Commited in follower index is 1
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_2 and value is 8129231873970511021
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_3 and value is 151355421496526058
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_4 and value is 8060432656259579393
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_5 and value is 1642055753719147721
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_6 and value is 3914333600973987046
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_7 and value is 5384205168035655024
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_8 and value is 3845615957841495851
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_9 and value is 2637936761401656454
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_10 and value is 4216704508848259121
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_11 and value is 1326657567677732900
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_12 and value is 1311327060116688433
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_13 and value is 3932152032667520499
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_14 and value is 3453548102202278495
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_15 and value is 6505886766853706153
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_16 and value is 1431511300949888019
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_17 and value is 8592102895554363016
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_18 and value is 4105816064344526910
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_19 and value is 2533289155785155736
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_20 and value is 7104677773745652819
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_21 and value is 8304011521371631644
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_22 and value is 7455697409762924649
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_23 and value is 5974738736584834582
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_24 and value is 259458330607394514
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_25 and value is 6381113789522311904
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_26 and value is 2904128893091842412
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_27 and value is 4894908321342688193
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_28 and value is 7311230263500008032
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_29 and value is 1323308747301362165
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_30 and value is 173787949835611893
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_31 and value is 6312160442287364977
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_32 and value is 6827027430052178791
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_33 and value is 2562700635631808830
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_34 and value is 8067063325519970303
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_35 and value is 2111998154310903654
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_36 and value is 3598756341172824185
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_37 and value is 8952997347184720546
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_38 and value is 8060408460731190747
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_39 and value is 6150129100906422612
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_40 and value is 3033006352755355937
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_41 and value is 5023319892571956891
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_42 and value is 959428766647899134
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_43 and value is 6974666833270912399
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_44 and value is 2338409647684839889
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_45 and value is 8262098792395056839
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_46 and value is 5938752874917923278
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_47 and value is 4378343066965811370
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_48 and value is 1227382188148088258
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_49 and value is 8060427642111131084
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_50 and value is 7482381050172934065
+2020/09/14 15:06:00 Created From node 0 and the entry ID is 0_51 and value is 8004558872063788252
+2020/09/14 15:06:00 [1.1] Appended to log and len of log is 51
+2020/09/14 15:06:00 [0.1]Got a conform Append ack from 1 for till index 51
+2020/09/14 15:06:02 [1.1]Term timeout and its state follower
+2020/09/14 15:06:02 [1] Start a election for term 2
+2020/09/14 15:06:02 [1.2] Sent request vote to 4
+2020/09/14 15:06:02 [1.2] Sent request vote to 0
+2020/09/14 15:06:02 [1.2] Sent request vote to 2
+2020/09/14 15:06:02 [1.2] Sent request vote to 3
+2020/09/14 15:06:03 [2.1]Term timeout and its state follower
+2020/09/14 15:06:03 [2] Start a election for term 2
+2020/09/14 15:06:03 [2.2] Sent request vote to 4
+2020/09/14 15:06:03 [2.2] Sent request vote to 1
+2020/09/14 15:06:03 [2.2] Sent request vote to 0
+2020/09/14 15:06:03 [2.2] Sent request vote to 3
+2020/09/14 15:06:03 [4.1] Recv RequestVote with &{2 2 0}
+2020/09/14 15:06:03 [4.2] Recv Replied with &{0 true}
+2020/09/14 15:06:03 [3.1] Recv RequestVote with &{2 2 0}
+2020/09/14 15:06:03 [3.2] Recv Replied with &{0 true}
+2020/09/14 15:06:03 Leader made 2 in term 2
+2020/09/14 15:06:03 Created From node 2 and the entry ID is 2_1 and value is 3173148153557411910
+2020/09/14 15:06:03 [4.2] Appended to log and len of log is 2
+2020/09/14 15:06:03 [3.2] Appended to log and len of log is 2
+2020/09/14 15:06:03 [2.2]Got a conform Append ack from 4 for till index 2
+2020/09/14 15:06:03 [2.2]Got a conform Append ack from 3 for till index 2
+2020/09/14 15:06:03 [2] Commited at leader log index is 2
+2020/09/14 15:06:03 [4.2] Commited in follower index is 2
+2020/09/14 15:06:03 [3.2] Commited in follower index is 2
+2020/09/14 15:06:03 Created From node 2 and the entry ID is 2_2 and value is 3452964535150095860
+2020/09/14 15:06:03 [4.2] Appended to log and len of log is 3
+2020/09/14 15:06:03 [3.2] Appended to log and len of log is 3
+2020/09/14 15:06:03 [2.2]Got a conform Append ack from 4 for till index 3
+2020/09/14 15:06:03 [2.2]Got a conform Append ack from 3 for till index 3
+2020/09/14 15:06:03 [2] Commited at leader log index is 3
+2020/09/14 15:06:03 [3.2] Commited in follower index is 3
+2020/09/14 15:06:03 [4.2] Commited in follower index is 3
+2020/09/14 15:06:03 Created From node 2 and the entry ID is 2_3 and value is 277914965429357800
+2020/09/14 15:06:03 [4.2] Appended to log and len of log is 4
+2020/09/14 15:06:03 [3.2] Appended to log and len of log is 4
+2020/09/14 15:06:03 [2.2]Got a conform Append ack from 4 for till index 4
+2020/09/14 15:06:03 [2.2]Got a conform Append ack from 3 for till index 4
+2020/09/14 15:06:03 [2] Commited at leader log index is 4
+2020/09/14 15:06:03 [4.2] Commited in follower index is 4
+2020/09/14 15:06:03 [3.2] Commited in follower index is 4
+2020/09/14 15:06:03 Created From node 2 and the entry ID is 2_4 and value is 4680000594875549427
+2020/09/14 15:06:03 [4.2] Appended to log and len of log is 5
+2020/09/14 15:06:03 [3.2] Appended to log and len of log is 5
+2020/09/14 15:06:03 [2.2]Got a conform Append ack from 4 for till index 5
+2020/09/14 15:06:03 [2.2]Got a conform Append ack from 3 for till index 5
+2020/09/14 15:06:03 [2] Commited at leader log index is 5
+2020/09/14 15:06:03 [3.2] Commited in follower index is 5
+2020/09/14 15:06:03 [4.2] Commited in follower index is 5
+2020/09/14 15:06:03 Created From node 2 and the entry ID is 2_5 and value is 3846038789452762717
+2020/09/14 15:06:04 [4.2] Appended to log and len of log is 6
+2020/09/14 15:06:04 [3.2] Appended to log and len of log is 6
+2020/09/14 15:06:04 [2.2]Got a conform Append ack from 4 for till index 6
+2020/09/14 15:06:04 [2.2]Got a conform Append ack from 3 for till index 6
+2020/09/14 15:06:04 [2] Commited at leader log index is 6
+2020/09/14 15:06:04 [3.2] Commited in follower index is 6
+2020/09/14 15:06:04 [4.2] Commited in follower index is 6
+2020/09/14 15:06:04 Created From node 2 and the entry ID is 2_6 and value is 3081690134460387820
+2020/09/14 15:06:04 [4.2] Appended to log and len of log is 7
+2020/09/14 15:06:04 [2.2]Got a conform Append ack from 4 for till index 7
+2020/09/14 15:06:04 [3.2] Appended to log and len of log is 7
+2020/09/14 15:06:04 [2.2]Got a conform Append ack from 3 for till index 7
+2020/09/14 15:06:04 [2] Commited at leader log index is 7
+2020/09/14 15:06:04 [4.2] Commited in follower index is 7
+2020/09/14 15:06:04 [3.2] Commited in follower index is 7
+2020/09/14 15:06:04 Created From node 2 and the entry ID is 2_7 and value is 9089972500987610278
+2020/09/14 15:06:04 [4.2] Appended to log and len of log is 8
+2020/09/14 15:06:04 [3.2] Appended to log and len of log is 8
+2020/09/14 15:06:04 [2.2]Got a conform Append ack from 4 for till index 8
+2020/09/14 15:06:04 [2.2]Got a conform Append ack from 3 for till index 8
+2020/09/14 15:06:04 [2] Commited at leader log index is 8
+2020/09/14 15:06:04 [4.2] Commited in follower index is 8
+2020/09/14 15:06:04 [3.2] Commited in follower index is 8
+2020/09/14 15:06:04 Created From node 2 and the entry ID is 2_8 and value is 6555156563303176166
+2020/09/14 15:06:04 [4.2] Appended to log and len of log is 9
+2020/09/14 15:06:04 [3.2] Appended to log and len of log is 9
+2020/09/14 15:06:04 [2.2]Got a conform Append ack from 4 for till index 9
+2020/09/14 15:06:04 [2.2]Got a conform Append ack from 3 for till index 9
+2020/09/14 15:06:04 [2] Commited at leader log index is 9
+2020/09/14 15:06:04 [4.2] Commited in follower index is 9
+2020/09/14 15:06:04 [3.2] Commited in follower index is 9
+2020/09/14 15:06:04 Created From node 2 and the entry ID is 2_9 and value is 12816887628375943
+2020/09/14 15:06:04 [4.2] Appended to log and len of log is 10
+2020/09/14 15:06:04 [3.2] Appended to log and len of log is 10
+2020/09/14 15:06:04 [2.2]Got a conform Append ack from 4 for till index 10
+2020/09/14 15:06:04 [2.2]Got a conform Append ack from 3 for till index 10
+2020/09/14 15:06:04 [2] Commited at leader log index is 10
+2020/09/14 15:06:04 [4.2] Commited in follower index is 10
+2020/09/14 15:06:04 [3.2] Commited in follower index is 10
+2020/09/14 15:06:04 Created From node 2 and the entry ID is 2_10 and value is 6532845827178309616
+2020/09/14 15:06:04 [4.2] Appended to log and len of log is 11
+2020/09/14 15:06:04 [3.2] Appended to log and len of log is 11
+2020/09/14 15:06:04 [2.2]Got a conform Append ack from 4 for till index 11
+2020/09/14 15:06:04 [2.2]Got a conform Append ack from 3 for till index 11
+2020/09/14 15:06:04 [2] Commited at leader log index is 11
+2020/09/14 15:06:04 [4.2] Commited in follower index is 11
+2020/09/14 15:06:04 [3.2] Commited in follower index is 11
+2020/09/14 15:06:04 Created From node 2 and the entry ID is 2_11 and value is 4410489580717292702
+2020/09/14 15:06:04 [4.2] Appended to log and len of log is 12
+2020/09/14 15:06:04 [2.2]Got a conform Append ack from 4 for till index 12
+2020/09/14 15:06:04 [3.2] Appended to log and len of log is 12
+2020/09/14 15:06:04 [2.2]Got a conform Append ack from 3 for till index 12
+2020/09/14 15:06:04 [2] Commited at leader log index is 12
+2020/09/14 15:06:04 [4.2] Commited in follower index is 12
+2020/09/14 15:06:04 [3.2] Commited in follower index is 12
+2020/09/14 15:06:04 Created From node 2 and the entry ID is 2_12 and value is 5653314727162019549
+2020/09/14 15:06:04 [4.2] Appended to log and len of log is 13
+2020/09/14 15:06:04 [3.2] Appended to log and len of log is 13
+2020/09/14 15:06:04 [2.2]Got a conform Append ack from 3 for till index 13
+2020/09/14 15:06:04 [2.2]Got a conform Append ack from 4 for till index 13
+2020/09/14 15:06:04 [2] Commited at leader log index is 13
+2020/09/14 15:06:04 [4.2] Commited in follower index is 13
+2020/09/14 15:06:04 [3.2] Commited in follower index is 13
+2020/09/14 15:06:04 Created From node 2 and the entry ID is 2_13 and value is 4883137032831815531
+2020/09/14 15:06:04 [4.2] Appended to log and len of log is 14
+2020/09/14 15:06:04 [3.2] Appended to log and len of log is 14
+2020/09/14 15:06:04 [2.2]Got a conform Append ack from 4 for till index 14
+2020/09/14 15:06:04 [2.2]Got a conform Append ack from 3 for till index 14
+2020/09/14 15:06:04 [2] Commited at leader log index is 14
+2020/09/14 15:06:04 [4.2] Commited in follower index is 14
+2020/09/14 15:06:04 [3.2] Commited in follower index is 14
+2020/09/14 15:06:04 Created From node 2 and the entry ID is 2_14 and value is 274843843476595282
+2020/09/14 15:06:04 [4.2] Appended to log and len of log is 15
+2020/09/14 15:06:04 [2.2]Got a conform Append ack from 4 for till index 15
+2020/09/14 15:06:04 [3.2] Appended to log and len of log is 15
+2020/09/14 15:06:04 [2.2]Got a conform Append ack from 3 for till index 15
+2020/09/14 15:06:04 [2] Commited at leader log index is 15
+2020/09/14 15:06:04 [4.2] Commited in follower index is 15
+2020/09/14 15:06:04 [3.2] Commited in follower index is 15
+2020/09/14 15:06:04 [1.2]Term timeout and its state candidate
+2020/09/14 15:06:04 [1] Start a election for term 3
+2020/09/14 15:06:04 [1.3] Sent request vote to 4
+2020/09/14 15:06:04 [1.3] Sent request vote to 0
+2020/09/14 15:06:04 [1.3] Sent request vote to 2
+2020/09/14 15:06:04 [1.3] Sent request vote to 3
+2020/09/14 15:06:04 Created From node 2 and the entry ID is 2_15 and value is 2764752378368925143
+2020/09/14 15:06:05 [4.2] Appended to log and len of log is 16
+2020/09/14 15:06:05 [3.2] Appended to log and len of log is 16
+2020/09/14 15:06:05 [2.2]Got a conform Append ack from 4 for till index 16
+2020/09/14 15:06:05 [2.2]Got a conform Append ack from 3 for till index 16
+2020/09/14 15:06:05 [2] Commited at leader log index is 16
+2020/09/14 15:06:05 [3.2] Commited in follower index is 16
+2020/09/14 15:06:05 [4.2] Commited in follower index is 16
+2020/09/14 15:06:05 Created From node 2 and the entry ID is 2_16 and value is 2226815755837322405
+2020/09/14 15:06:05 [3.2] Appended to log and len of log is 17
+2020/09/14 15:06:05 [4.2] Appended to log and len of log is 17
+2020/09/14 15:06:05 [2.2]Got a conform Append ack from 3 for till index 17
+2020/09/14 15:06:05 [2.2]Got a conform Append ack from 4 for till index 17
+2020/09/14 15:06:05 [2] Commited at leader log index is 17
+2020/09/14 15:06:05 [3.2] Commited in follower index is 17
+2020/09/14 15:06:05 [4.2] Commited in follower index is 17
+2020/09/14 15:06:05 Created From node 2 and the entry ID is 2_17 and value is 5995498895925715627
+2020/09/14 15:06:05 [4.2] Appended to log and len of log is 18
+2020/09/14 15:06:05 [3.2] Appended to log and len of log is 18
+2020/09/14 15:06:05 [2.2]Got a conform Append ack from 4 for till index 18
+2020/09/14 15:06:05 [2.2]Got a conform Append ack from 3 for till index 18
+2020/09/14 15:06:05 [2] Commited at leader log index is 18
+2020/09/14 15:06:05 [3.2] Commited in follower index is 18
+2020/09/14 15:06:05 [4.2] Commited in follower index is 18
+2020/09/14 15:06:05 Created From node 2 and the entry ID is 2_18 and value is 4607915244224683198
+2020/09/14 15:06:05 [4.2] Appended to log and len of log is 19
+2020/09/14 15:06:05 [3.2] Appended to log and len of log is 19
+2020/09/14 15:06:05 [2.2]Got a conform Append ack from 4 for till index 19
+2020/09/14 15:06:05 [2.2]Got a conform Append ack from 3 for till index 19
+2020/09/14 15:06:05 [2] Commited at leader log index is 19
+2020/09/14 15:06:05 [3.2] Commited in follower index is 19
+2020/09/14 15:06:05 [4.2] Commited in follower index is 19
+2020/09/14 15:06:05 Created From node 2 and the entry ID is 2_19 and value is 331587702910421347
+2020/09/14 15:06:05 [4.2] Appended to log and len of log is 20
+2020/09/14 15:06:05 [2.2]Got a conform Append ack from 4 for till index 20
+2020/09/14 15:06:05 [3.2] Appended to log and len of log is 20
+2020/09/14 15:06:05 [2.2]Got a conform Append ack from 3 for till index 20
+2020/09/14 15:06:05 [2] Commited at leader log index is 20
+2020/09/14 15:06:05 [3.2] Commited in follower index is 20
+2020/09/14 15:06:05 [4.2] Commited in follower index is 20
+2020/09/14 15:06:05 Created From node 2 and the entry ID is 2_20 and value is 3472094697485991155
+2020/09/14 15:06:05 [4.2] Appended to log and len of log is 21
+2020/09/14 15:06:05 [2.2]Got a conform Append ack from 4 for till index 21
+2020/09/14 15:06:05 [3.2] Appended to log and len of log is 21
+2020/09/14 15:06:05 [2.2]Got a conform Append ack from 3 for till index 21
+2020/09/14 15:06:05 [2] Commited at leader log index is 21
+2020/09/14 15:06:05 [4.2] Commited in follower index is 21
+2020/09/14 15:06:05 [3.2] Commited in follower index is 21
+2020/09/14 15:06:05 Created From node 2 and the entry ID is 2_21 and value is 7409202046239732272
+2020/09/14 15:06:05 [4.2] Appended to log and len of log is 22
+2020/09/14 15:06:05 [2.2]Got a conform Append ack from 4 for till index 22
+2020/09/14 15:06:05 [3.2] Appended to log and len of log is 22
+2020/09/14 15:06:05 [2.2]Got a conform Append ack from 3 for till index 22
+2020/09/14 15:06:05 [2] Commited at leader log index is 22
+2020/09/14 15:06:05 [4.2] Commited in follower index is 22
+2020/09/14 15:06:05 [3.2] Commited in follower index is 22
+2020/09/14 15:06:05 Created From node 2 and the entry ID is 2_22 and value is 127198428471346892
+2020/09/14 15:06:05 [4.2] Appended to log and len of log is 23
+2020/09/14 15:06:05 [3.2] Appended to log and len of log is 23
+2020/09/14 15:06:05 [2.2]Got a conform Append ack from 3 for till index 23
+2020/09/14 15:06:05 [2.2]Got a conform Append ack from 4 for till index 23
+2020/09/14 15:06:05 [2] Commited at leader log index is 23
+2020/09/14 15:06:05 [4.2] Commited in follower index is 23
+2020/09/14 15:06:05 [3.2] Commited in follower index is 23
+2020/09/14 15:06:05 Created From node 2 and the entry ID is 2_23 and value is 523020449369238860
+2020/09/14 15:06:05 [4.2] Appended to log and len of log is 24
+2020/09/14 15:06:05 [2.2]Got a conform Append ack from 4 for till index 24
+2020/09/14 15:06:05 [3.2] Appended to log and len of log is 24
+2020/09/14 15:06:05 [2.2]Got a conform Append ack from 3 for till index 24
+2020/09/14 15:06:05 [2] Commited at leader log index is 24
+2020/09/14 15:06:05 [4.2] Commited in follower index is 24
+2020/09/14 15:06:05 [3.2] Commited in follower index is 24
+2020/09/14 15:06:05 Created From node 2 and the entry ID is 2_24 and value is 8428749915226030787
+2020/09/14 15:06:05 [4.2] Appended to log and len of log is 25
+2020/09/14 15:06:05 [3.2] Appended to log and len of log is 25
+2020/09/14 15:06:05 [2.2]Got a conform Append ack from 4 for till index 25
+2020/09/14 15:06:05 [2.2]Got a conform Append ack from 3 for till index 25
+2020/09/14 15:06:05 [2] Commited at leader log index is 25
+2020/09/14 15:06:05 [4.2] Commited in follower index is 25
+2020/09/14 15:06:05 [3.2] Commited in follower index is 25
+2020/09/14 15:06:05 Created From node 2 and the entry ID is 2_25 and value is 7348452539331585298
+2020/09/14 15:06:06 [3.2] Appended to log and len of log is 26
+2020/09/14 15:06:06 [4.2] Appended to log and len of log is 26
+2020/09/14 15:06:06 [2.2]Got a conform Append ack from 3 for till index 26
+2020/09/14 15:06:06 [2.2]Got a conform Append ack from 4 for till index 26
+2020/09/14 15:06:06 [2] Commited at leader log index is 26
+2020/09/14 15:06:06 [4.2] Commited in follower index is 26
+2020/09/14 15:06:06 [3.2] Commited in follower index is 26
+2020/09/14 15:06:06 Created From node 2 and the entry ID is 2_26 and value is 4602011383493741352
+2020/09/14 15:06:06 [4.2] Appended to log and len of log is 27
+2020/09/14 15:06:06 [2.2]Got a conform Append ack from 4 for till index 27
+2020/09/14 15:06:06 [3.2] Appended to log and len of log is 27
+2020/09/14 15:06:06 [2.2]Got a conform Append ack from 3 for till index 27
+2020/09/14 15:06:06 [2] Commited at leader log index is 27
+2020/09/14 15:06:06 [4.2] Commited in follower index is 27
+2020/09/14 15:06:06 [3.2] Commited in follower index is 27
+2020/09/14 15:06:06 Created From node 2 and the entry ID is 2_27 and value is 8579595162804460825
+2020/09/14 15:06:06 [4.2] Appended to log and len of log is 28
+2020/09/14 15:06:06 [3.2] Appended to log and len of log is 28
+2020/09/14 15:06:06 [2.2]Got a conform Append ack from 4 for till index 28
+2020/09/14 15:06:06 [2.2]Got a conform Append ack from 3 for till index 28
+2020/09/14 15:06:06 [2] Commited at leader log index is 28
+2020/09/14 15:06:06 [4.2] Commited in follower index is 28
+2020/09/14 15:06:06 [3.2] Commited in follower index is 28
+2020/09/14 15:06:06 Created From node 2 and the entry ID is 2_28 and value is 4330401648343507835
+2020/09/14 15:06:06 [4.2] Appended to log and len of log is 29
+2020/09/14 15:06:06 [2.2]Got a conform Append ack from 4 for till index 29
+2020/09/14 15:06:06 [3.2] Appended to log and len of log is 29
+2020/09/14 15:06:06 [2.2]Got a conform Append ack from 3 for till index 29
+2020/09/14 15:06:06 [2] Commited at leader log index is 29
+2020/09/14 15:06:06 [3.2] Commited in follower index is 29
+2020/09/14 15:06:06 [4.2] Commited in follower index is 29
+2020/09/14 15:06:06 Created From node 2 and the entry ID is 2_29 and value is 8854619205543176678
+2020/09/14 15:06:06 [4.2] Appended to log and len of log is 30
+2020/09/14 15:06:06 [3.2] Appended to log and len of log is 30
+2020/09/14 15:06:06 [2.2]Got a conform Append ack from 4 for till index 30
+2020/09/14 15:06:06 [2.2]Got a conform Append ack from 3 for till index 30
+2020/09/14 15:06:06 [2] Commited at leader log index is 30
+2020/09/14 15:06:06 [3.2] Commited in follower index is 30
+2020/09/14 15:06:06 [4.2] Commited in follower index is 30
+2020/09/14 15:06:06 Created From node 2 and the entry ID is 2_30 and value is 2404524632378132038
+2020/09/14 15:06:06 [4.2] Appended to log and len of log is 31
+2020/09/14 15:06:06 [3.2] Appended to log and len of log is 31
+2020/09/14 15:06:06 [2.2]Got a conform Append ack from 4 for till index 31
+2020/09/14 15:06:06 [2.2]Got a conform Append ack from 3 for till index 31
+2020/09/14 15:06:06 [2] Commited at leader log index is 31
+2020/09/14 15:06:06 [4.2] Commited in follower index is 31
+2020/09/14 15:06:06 [3.2] Commited in follower index is 31
+2020/09/14 15:06:06 Created From node 2 and the entry ID is 2_31 and value is 2225038254943192091
+2020/09/14 15:06:06 [4.2] Appended to log and len of log is 32
+2020/09/14 15:06:06 [2.2]Got a conform Append ack from 4 for till index 32
+2020/09/14 15:06:06 [3.2] Appended to log and len of log is 32
+2020/09/14 15:06:06 [2.2]Got a conform Append ack from 3 for till index 32
+2020/09/14 15:06:06 [2] Commited at leader log index is 32
+2020/09/14 15:06:06 [4.2] Commited in follower index is 32
+2020/09/14 15:06:06 [3.2] Commited in follower index is 32
+2020/09/14 15:06:06 Created From node 2 and the entry ID is 2_32 and value is 5661637311902416046
+2020/09/14 15:06:06 [3.2] Appended to log and len of log is 33
+2020/09/14 15:06:06 [2.2]Got a conform Append ack from 3 for till index 33
+2020/09/14 15:06:06 [4.2] Appended to log and len of log is 33
+2020/09/14 15:06:06 [2.2]Got a conform Append ack from 4 for till index 33
+2020/09/14 15:06:06 [2] Commited at leader log index is 33
+2020/09/14 15:06:06 [3.2] Commited in follower index is 33
+2020/09/14 15:06:06 [4.2] Commited in follower index is 33
+2020/09/14 15:06:06 Created From node 2 and the entry ID is 2_33 and value is 2752766870686294198
+2020/09/14 15:06:06 [4.2] Appended to log and len of log is 34
+2020/09/14 15:06:06 [2.2]Got a conform Append ack from 4 for till index 34
+2020/09/14 15:06:06 [3.2] Appended to log and len of log is 34
+2020/09/14 15:06:06 [2.2]Got a conform Append ack from 3 for till index 34
+2020/09/14 15:06:06 [2] Commited at leader log index is 34
+2020/09/14 15:06:06 [3.2] Commited in follower index is 34
+2020/09/14 15:06:06 [4.2] Commited in follower index is 34
+2020/09/14 15:06:06 Created From node 2 and the entry ID is 2_34 and value is 7782156964969895146
+2020/09/14 15:06:06 [4.2] Appended to log and len of log is 35
+2020/09/14 15:06:06 [2.2]Got a conform Append ack from 4 for till index 35
+2020/09/14 15:06:06 [3.2] Appended to log and len of log is 35
+2020/09/14 15:06:06 [2.2]Got a conform Append ack from 3 for till index 35
+2020/09/14 15:06:06 [2] Commited at leader log index is 35
+2020/09/14 15:06:06 [1.3]Term timeout and its state follower
+2020/09/14 15:06:06 [1] Start a election for term 4
+2020/09/14 15:06:06 [1.4] Sent request vote to 4
+2020/09/14 15:06:06 [1.4] Sent request vote to 2
+2020/09/14 15:06:06 [1.4] Sent request vote to 0
+2020/09/14 15:06:06 [1.4] Sent request vote to 3
+2020/09/14 15:06:06 [4.2] Commited in follower index is 35
+2020/09/14 15:06:06 [3.2] Commited in follower index is 35
+2020/09/14 15:06:06 Created From node 2 and the entry ID is 2_35 and value is 1719695631715360242
+2020/09/14 15:06:07 [4.2] Appended to log and len of log is 36
+2020/09/14 15:06:07 [2.2]Got a conform Append ack from 4 for till index 36
+2020/09/14 15:06:07 [3.2] Appended to log and len of log is 36
+2020/09/14 15:06:07 [2.2]Got a conform Append ack from 3 for till index 36
+2020/09/14 15:06:07 [2] Commited at leader log index is 36
+2020/09/14 15:06:07 [4.2] Commited in follower index is 36
+2020/09/14 15:06:07 [3.2] Commited in follower index is 36
+2020/09/14 15:06:07 Created From node 2 and the entry ID is 2_36 and value is 5796218300763796534
+2020/09/14 15:06:07 [4.2] Appended to log and len of log is 37
+2020/09/14 15:06:07 [2.2]Got a conform Append ack from 4 for till index 37
+2020/09/14 15:06:07 [3.2] Appended to log and len of log is 37
+2020/09/14 15:06:07 [2.2]Got a conform Append ack from 3 for till index 37
+2020/09/14 15:06:07 [2] Commited at leader log index is 37
+2020/09/14 15:06:07 [4.2] Commited in follower index is 37
+2020/09/14 15:06:07 [3.2] Commited in follower index is 37
+2020/09/14 15:06:07 Created From node 2 and the entry ID is 2_37 and value is 4710749890014455110
+2020/09/14 15:06:07 [4.2] Appended to log and len of log is 38
+2020/09/14 15:06:07 [3.2] Appended to log and len of log is 38
+2020/09/14 15:06:07 [2.2]Got a conform Append ack from 4 for till index 38
+2020/09/14 15:06:07 [2.2]Got a conform Append ack from 3 for till index 38
+2020/09/14 15:06:07 [2] Commited at leader log index is 38
+2020/09/14 15:06:07 [4.2] Commited in follower index is 38
+2020/09/14 15:06:07 [3.2] Commited in follower index is 38
+2020/09/14 15:06:07 Created From node 2 and the entry ID is 2_38 and value is 8194200722232111433
+2020/09/14 15:06:07 [4.2] Appended to log and len of log is 39
+2020/09/14 15:06:07 [3.2] Appended to log and len of log is 39
+2020/09/14 15:06:07 [2.2]Got a conform Append ack from 4 for till index 39
+2020/09/14 15:06:07 [2.2]Got a conform Append ack from 3 for till index 39
+2020/09/14 15:06:07 [2] Commited at leader log index is 39
+2020/09/14 15:06:07 [4.2] Commited in follower index is 39
+2020/09/14 15:06:07 [3.2] Commited in follower index is 39
+2020/09/14 15:06:07 Created From node 2 and the entry ID is 2_39 and value is 2808866378832072393
+2020/09/14 15:06:07 [4.2] Appended to log and len of log is 40
+2020/09/14 15:06:07 [3.2] Appended to log and len of log is 40
+2020/09/14 15:06:07 [2.2]Got a conform Append ack from 4 for till index 40
+2020/09/14 15:06:07 [2.2]Got a conform Append ack from 3 for till index 40
+2020/09/14 15:06:07 [2] Commited at leader log index is 40
+2020/09/14 15:06:07 [4.2] Commited in follower index is 40
+2020/09/14 15:06:07 [3.2] Commited in follower index is 40
+2020/09/14 15:06:07 Created From node 2 and the entry ID is 2_40 and value is 4532032470066559213
+2020/09/14 15:06:07 [4.2] Appended to log and len of log is 41
+2020/09/14 15:06:07 [3.2] Appended to log and len of log is 41
+2020/09/14 15:06:07 [2.2]Got a conform Append ack from 4 for till index 41
+2020/09/14 15:06:07 [2.2]Got a conform Append ack from 3 for till index 41
+2020/09/14 15:06:07 [2] Commited at leader log index is 41
+2020/09/14 15:06:07 [4.2] Commited in follower index is 41
+2020/09/14 15:06:07 [3.2] Commited in follower index is 41
+2020/09/14 15:06:07 Created From node 2 and the entry ID is 2_41 and value is 4727386565681274575
+2020/09/14 15:06:07 [4.2] Appended to log and len of log is 42
+2020/09/14 15:06:07 [2.2]Got a conform Append ack from 4 for till index 42
+2020/09/14 15:06:07 [3.2] Appended to log and len of log is 42
+2020/09/14 15:06:07 [2.2]Got a conform Append ack from 3 for till index 42
+2020/09/14 15:06:07 [2] Commited at leader log index is 42
+2020/09/14 15:06:07 [3.2] Commited in follower index is 42
+2020/09/14 15:06:07 [4.2] Commited in follower index is 42
+2020/09/14 15:06:07 Created From node 2 and the entry ID is 2_42 and value is 3667657557712663586
+2020/09/14 15:06:07 [3.2] Appended to log and len of log is 43
+2020/09/14 15:06:07 [2.2]Got a conform Append ack from 3 for till index 43
+2020/09/14 15:06:07 [4.2] Appended to log and len of log is 43
+2020/09/14 15:06:07 [2.2]Got a conform Append ack from 4 for till index 43
+2020/09/14 15:06:07 [2] Commited at leader log index is 43
+2020/09/14 15:06:07 [3.2] Commited in follower index is 43
+2020/09/14 15:06:07 [4.2] Commited in follower index is 43
+2020/09/14 15:06:07 Created From node 2 and the entry ID is 2_43 and value is 68612156892687606
+2020/09/14 15:06:07 [3.2] Appended to log and len of log is 44
+2020/09/14 15:06:07 [2.2]Got a conform Append ack from 3 for till index 44
+2020/09/14 15:06:07 [4.2] Appended to log and len of log is 44
+2020/09/14 15:06:07 [2.2]Got a conform Append ack from 4 for till index 44
+2020/09/14 15:06:07 [2] Commited at leader log index is 44
+2020/09/14 15:06:07 [3.2] Commited in follower index is 44
+2020/09/14 15:06:07 [4.2] Commited in follower index is 44
+2020/09/14 15:06:07 Created From node 2 and the entry ID is 2_44 and value is 2004670900631933706
+2020/09/14 15:06:07 [4.2] Appended to log and len of log is 45
+2020/09/14 15:06:07 [2.2]Got a conform Append ack from 4 for till index 45
+2020/09/14 15:06:07 [3.2] Appended to log and len of log is 45
+2020/09/14 15:06:07 [2.2]Got a conform Append ack from 3 for till index 45
+2020/09/14 15:06:07 [2] Commited at leader log index is 45
+2020/09/14 15:06:07 [4.2] Commited in follower index is 45
+2020/09/14 15:06:07 [3.2] Commited in follower index is 45
+2020/09/14 15:06:07 Created From node 2 and the entry ID is 2_45 and value is 2529510719622969688
+2020/09/14 15:06:08 [4.2] Appended to log and len of log is 46
+2020/09/14 15:06:08 [2.2]Got a conform Append ack from 4 for till index 46
+2020/09/14 15:06:08 [3.2] Appended to log and len of log is 46
+2020/09/14 15:06:08 [2.2]Got a conform Append ack from 3 for till index 46
+2020/09/14 15:06:08 [2] Commited at leader log index is 46
+2020/09/14 15:06:08 [4.2] Commited in follower index is 46
+2020/09/14 15:06:08 [3.2] Commited in follower index is 46
+2020/09/14 15:06:08 Created From node 2 and the entry ID is 2_46 and value is 7843491032675000029
+2020/09/14 15:06:08 [4.2] Appended to log and len of log is 47
+2020/09/14 15:06:08 [2.2]Got a conform Append ack from 4 for till index 47
+2020/09/14 15:06:08 [3.2] Appended to log and len of log is 47
+2020/09/14 15:06:08 [2.2]Got a conform Append ack from 3 for till index 47
+2020/09/14 15:06:08 [2] Commited at leader log index is 47
+2020/09/14 15:06:08 [4.2] Commited in follower index is 47
+2020/09/14 15:06:08 [3.2] Commited in follower index is 47
+2020/09/14 15:06:08 Created From node 2 and the entry ID is 2_47 and value is 9185016118017106374
+2020/09/14 15:06:08 [3.2] Appended to log and len of log is 48
+2020/09/14 15:06:08 [4.2] Appended to log and len of log is 48
+2020/09/14 15:06:08 [2.2]Got a conform Append ack from 3 for till index 48
+2020/09/14 15:06:08 [2.2]Got a conform Append ack from 4 for till index 48
+2020/09/14 15:06:08 [2] Commited at leader log index is 48
+2020/09/14 15:06:08 [4.2] Commited in follower index is 48
+2020/09/14 15:06:08 [3.2] Commited in follower index is 48
+2020/09/14 15:06:08 Created From node 2 and the entry ID is 2_48 and value is 3533420943002755698
+2020/09/14 15:06:08 [3.2] Appended to log and len of log is 49
+2020/09/14 15:06:08 [2.2]Got a conform Append ack from 3 for till index 49
+2020/09/14 15:06:08 [4.2] Appended to log and len of log is 49
+2020/09/14 15:06:08 [2.2]Got a conform Append ack from 4 for till index 49
+2020/09/14 15:06:08 [2] Commited at leader log index is 49
+2020/09/14 15:06:08 [4.2] Commited in follower index is 49
+2020/09/14 15:06:08 [3.2] Commited in follower index is 49
+2020/09/14 15:06:08 Created From node 2 and the entry ID is 2_49 and value is 5940024995635326298
+2020/09/14 15:06:08 [4.2] Appended to log and len of log is 50
+2020/09/14 15:06:08 [3.2] Appended to log and len of log is 50
+2020/09/14 15:06:08 [2.2]Got a conform Append ack from 4 for till index 50
+2020/09/14 15:06:08 [2.2]Got a conform Append ack from 3 for till index 50
+2020/09/14 15:06:08 [2] Commited at leader log index is 50
+2020/09/14 15:06:08 [4.2] Commited in follower index is 50
+2020/09/14 15:06:08 [3.2] Commited in follower index is 50
+2020/09/14 15:06:08 Created From node 2 and the entry ID is 2_50 and value is 7509951041134775707
+2020/09/14 15:06:08 [4.2] Appended to log and len of log is 51
+2020/09/14 15:06:08 [2.2]Got a conform Append ack from 4 for till index 51
+2020/09/14 15:06:08 [3.2] Appended to log and len of log is 51
+2020/09/14 15:06:08 [2.2]Got a conform Append ack from 3 for till index 51
+2020/09/14 15:06:08 [2] Commited at leader log index is 51
+2020/09/14 15:06:08 [4.2] Commited in follower index is 51
+2020/09/14 15:06:08 [3.2] Commited in follower index is 51
+2020/09/14 15:06:08 [1.4]Term timeout and its state follower
+2020/09/14 15:06:08 [1] Start a election for term 5
+2020/09/14 15:06:08 [1.5] Sent request vote to 4
+2020/09/14 15:06:08 [1.5] Sent request vote to 0
+2020/09/14 15:06:08 [1.5] Sent request vote to 2
+2020/09/14 15:06:08 [1.5] Sent request vote to 3
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_51 and value is 8327314938938977799
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_52 and value is 2778799326077878396
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_53 and value is 935955782640539182
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_54 and value is 8369288964604150866
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_55 and value is 7799471730491384368
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_56 and value is 3216539148002086344
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_57 and value is 8629478466873939347
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_58 and value is 7858734995084585434
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_59 and value is 3731522537826673875
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_60 and value is 3566462065930866367
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_61 and value is 8289936073833459141
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_62 and value is 3374971511600571968
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_63 and value is 7568033057777880691
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_64 and value is 3760902201283580824
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_65 and value is 5686983651453749139
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_66 and value is 3538802838431742834
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_67 and value is 7479220642324992274
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_68 and value is 1118015357511198020
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_69 and value is 2848303044887199413
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_70 and value is 5873991682829427179
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_71 and value is 528913397313990162
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_72 and value is 1963973571261358434
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_73 and value is 2552745438630150989
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_74 and value is 8060881978960524194
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_75 and value is 5568484257720993001
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_76 and value is 264893831101640781
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_77 and value is 3138945711547731881
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_78 and value is 8516401820936381203
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_79 and value is 7112771302443922844
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_80 and value is 4960662578133612434
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_81 and value is 8025701933475069535
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_82 and value is 3943468524453879013
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_83 and value is 697811590553268523
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_84 and value is 5002736072088485133
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_85 and value is 5171719034776820360
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_86 and value is 6008266373252871014
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_87 and value is 5198319307124112604
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_88 and value is 1124231567266821194
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_89 and value is 405088242166088444
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_90 and value is 6681203769970537075
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_91 and value is 690030152753633074
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_92 and value is 5205327280457250447
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_93 and value is 3729929020961428986
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_94 and value is 1404449373978388458
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_95 and value is 6871742906614609588
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_96 and value is 6293856535829158620
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_97 and value is 6977130120323081272
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_98 and value is 6065833592064872740
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_99 and value is 5523642877397088831
+2020/09/14 15:06:09 Created From node 2 and the entry ID is 2_100 and value is 8492989959208451271
+2020/09/14 15:06:09 [4.2] Appended to log and len of log is 101
+2020/09/14 15:06:09 [2.2]Got a conform Append ack from 4 for till index 101
+2020/09/14 15:06:09 Created From node 0 and the entry ID is 0_52 and value is 841905229076096180
+2020/09/14 15:06:09 [0.1] Saw a greater term[5] and changed state to follower
+2020/09/14 15:06:09 [0.5]Term timeout and its state follower
+2020/09/14 15:06:09 [0] Start a election for term 6
+2020/09/14 15:06:09 [0.6] Sent request vote to 4
+2020/09/14 15:06:09 [0.6] Sent request vote to 1
+2020/09/14 15:06:09 [0.6] Sent request vote to 2
+2020/09/14 15:06:09 [0.6] Sent request vote to 3
+2020/09/14 15:06:09 [1.5] Recv RequestVote with &{0 6 0}
+2020/09/14 15:06:09 [1.6] Recv Replied with &{0 true}
+2020/09/14 15:06:09 [3.2] Recv RequestVote with &{0 6 0}
+2020/09/14 15:06:09 [3.6] Recv Replied with &{0 false}
+2020/09/14 15:06:10 [0.6]Term timeout and its state candidate
+2020/09/14 15:06:10 [0] Start a election for term 7
+2020/09/14 15:06:10 [0.7] Sent request vote to 1
+2020/09/14 15:06:10 [0.7] Sent request vote to 4
+2020/09/14 15:06:10 [0.7] Sent request vote to 2
+2020/09/14 15:06:10 [0.7] Sent request vote to 3
+2020/09/14 15:06:10 [1.6] Recv RequestVote with &{0 7 0}
+2020/09/14 15:06:10 [1.7] Recv Replied with &{0 true}
+2020/09/14 15:06:10 [3.6] Recv RequestVote with &{0 7 0}
+2020/09/14 15:06:10 [3.7] Recv Replied with &{0 false}
+2020/09/14 15:06:11 [0.7]Term timeout and its state follower
+2020/09/14 15:06:11 [0] Start a election for term 8
+2020/09/14 15:06:11 [0.8] Sent request vote to 4
+2020/09/14 15:06:11 [0.8] Sent request vote to 2
+2020/09/14 15:06:11 [0.8] Sent request vote to 1
+2020/09/14 15:06:11 [0.8] Sent request vote to 3
+2020/09/14 15:06:11 [1.7] Recv RequestVote with &{0 8 0}
+2020/09/14 15:06:11 [1.8] Recv Replied with &{0 true}
+2020/09/14 15:06:11 [3.7] Recv RequestVote with &{0 8 0}
+2020/09/14 15:06:11 [3.8] Recv Replied with &{0 false}
+2020/09/14 15:06:12 [0.8]Term timeout and its state candidate
+2020/09/14 15:06:12 [0] Start a election for term 9
+2020/09/14 15:06:12 [0.9] Sent request vote to 4
+2020/09/14 15:06:12 [0.9] Sent request vote to 2
+2020/09/14 15:06:12 [0.9] Sent request vote to 3
+2020/09/14 15:06:12 [0.9] Sent request vote to 1
+2020/09/14 15:06:12 [3.8] Recv RequestVote with &{0 9 0}
+2020/09/14 15:06:12 [3.9] Recv Replied with &{0 false}
+2020/09/14 15:06:12 [1.8] Recv RequestVote with &{0 9 0}
+2020/09/14 15:06:12 [1.9] Recv Replied with &{0 true}
+2020/09/14 15:06:13 [3.9]Term timeout and its state follower
+2020/09/14 15:06:13 [3] Start a election for term 10
+2020/09/14 15:06:13 [3.10] Sent request vote to 4
+2020/09/14 15:06:13 [3.10] Sent request vote to 0
+2020/09/14 15:06:13 [3.10] Sent request vote to 1
+2020/09/14 15:06:13 [0.9] Recv RequestVote with &{3 10 50}
+2020/09/14 15:06:13 [0.10] Recv Replied with &{0 true}
+2020/09/14 15:06:13 [1.9] Recv RequestVote with &{3 10 50}
+2020/09/14 15:06:13 [3.10] Sent request vote to 2
+2020/09/14 15:06:13 [1.10] Recv Replied with &{0 true}
+2020/09/14 15:06:13 Leader made 3 in term 10
+2020/09/14 15:06:13 apply error: commit index=2 server=1 8129231873970511021 != server=4 3173148153557411910
+exit status 1
+FAIL	_/Users/developerharsha/Documents/6.824/src/raft	14.217s
